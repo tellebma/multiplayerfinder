@@ -48,7 +48,7 @@ Les membres voient les prénoms, le nombre de votes et les matchs à cinq. Les v
 
 ## Données et limites
 
-27 fiches : les 18 propositions initiales et 9 ajouts. Capacités renseignées manuellement dans `data_catalog.py`, avec sources Steam. Co-Optimus bloque l’accès automatisé (403) : aucun contenu n’y a été extrait. Les durées sont des suggestions éditoriales de session, **pas** des durées de campagne vérifiées. Les tarifs proviennent de l’API Steam, région France, euros, et restent soumis à variation. Les données inconnues ne sont pas remplacées par des estimations.
+42 fiches : les 18 propositions initiales et 24 ajouts, dont Counter-Strike 2, Deadlock, League of Legends, VALORANT, Dota 2 et des jeux de survie en ligne. Le nombre de joueurs correspond au groupe pouvant jouer ensemble dans le mode indiqué, pas au total des adversaires dans une partie. Capacités renseignées manuellement dans `data_catalog.py`, avec sources Steam. Co-Optimus bloque l’accès automatisé (403) : aucun contenu n’y a été extrait. Les durées sont des suggestions éditoriales de session, **pas** des durées de campagne vérifiées. Les tarifs proviennent de l’API Steam, région France, euros, et restent soumis à variation. Les données inconnues ne sont pas remplacées par des estimations.
 
 Les bandes-annonces sont celles des éditeurs, lues avec hls.js. Internet est nécessaire pour les vidéos et les salons. Les images sont mises en cache localement lors de leur première récupération. Les polices Google disposent d’une police système de secours. En solo, les favoris restent dans le stockage du navigateur. Dans un salon, les votes sont conservés dans Supabase. Aucun outil d’analyse d’audience, achat ou inscription.
 
@@ -65,3 +65,15 @@ L’interface a été inspectée à 390 × 844, avec lecture effective d’une b
 ## Fichiers
 
 `public/` : interface et hls.js ; `api/index.js` : API Vercel ; `supabase/migrations/` : schéma et procédure SQL ; `dev-server.mjs` : serveur local ; `data_catalog.py` : données éditoriales ; `refresh_catalog.py` : récupération Steam ; `catalog.json` : cache ; `tests/` : vérifications.
+
+## Suggestions et super-likes
+
+Le bouton ★ ajoute un super-like. Il compte comme un oui dans le calcul des matchs, et pèse quatre fois un like dans le classement personnel. Un refus réduit la priorité des jeux similaires. L’algorithme compare genre, type de jeu, durée, budget et mode ; il varie les genres après deux suggestions similaires consécutives. Il ne prédit pas une probabilité de plaisir et n’utilise pas les votes privés des autres membres. Le classement « Ordre du catalogue » reste disponible.
+
+Les choix déjà enregistrés orientent immédiatement le classement. Les super-likes sont conservés dans Supabase dans les salons et dans le navigateur en solo. Les matchs restent unanimes : cinq personnes distinctes dans **le même salon**, chacune avec un like ou un super-like.
+
+## Diagnostic et historique
+
+La table privée `jvf_events` journalise les créations, les arrivées et les changements de votes à partir de l’installation de la migration `20261114154512_superlikes_and_vote_history.sql`. Elle contient identifiants de salon/personne/jeu, ancien et nouveau vote, date et action. Aucun token, hash de token ni appel périodique n’y est journalisé. Elle n’est accessible ni aux clients anonymes ni aux membres via l’API de l’application. Les anciennes valeurs de vote antérieures à cette migration ne peuvent pas être reconstituées.
+
+Les logs d’erreurs techniques restent consultables dans Supabase et Vercel. Les données de test sont supprimées après vérification.

@@ -17,7 +17,8 @@ try{
   for(let i=0;i<5;i++){const r=await request(i?'join':'create',i,{name:`Vérification ${i+1}`});assert.equal(r.status,200,JSON.stringify(r.data));assert.equal(r.data.members.length,i+1);}
   assert.equal((await request('join',5,{name:'Vérification 6'})).status,409);
   for(let i=0;i<4;i++){const r=await request('vote',i,{game:'2644470',vote:'yes'});assert.equal(r.status,200,JSON.stringify(r.data));assert.deepEqual(r.data.matches,[]);}
-  assert.deepEqual((await request('vote',4,{game:'2644470',vote:'yes'})).data.matches,['2644470']);
+  assert.deepEqual((await request('vote',4,{game:'2644470',vote:'super'})).data.matches,['2644470']);
+  assert.equal((await request('state',4)).data.votes['2644470'],'super');
   const state=await request('state',0);assert.deepEqual(state.data.votes,{'2644470':'yes'});assert.ok(!JSON.stringify(state.data).includes('token'));
   const old=members[0].token;members[0].token='0'.repeat(64);assert.equal((await request('state',0)).status,403);members[0].token=old;
   assert.deepEqual((await request('vote',4,{game:'2644470',vote:'no'})).data.matches,[]);

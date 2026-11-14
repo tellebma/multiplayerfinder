@@ -1,6 +1,844 @@
 {
   "games": [
     {
+      "id": "730",
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "genre": "FPS",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        25,
+        50
+      ],
+      "description": "Formez votre équipe de cinq pour poser ou désamorcer la bombe. Communication, précision et économie font la différence sur des manches tactiques.",
+      "note": "Groupe de 5 en Compétitif / Premier. Le statut Prime et les conditions d’accès au mode classé sont à vérifier pour chaque compte.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://store.steampowered.com/app/730/",
+      "teamSize": 5,
+      "aliases": [
+        "cs",
+        "cs2",
+        "counter strike"
+      ],
+      "price": 0,
+      "priceInitial": null,
+      "discount": 0,
+      "free": true,
+      "image": "/assets/730-image.jpg",
+      "poster": "/assets/730-poster.jpg",
+      "movies": [
+        {
+          "id": 256972298,
+          "name": "Launch Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256972298/movie.293x165.jpg?t=1696005467",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/dash_av1.mpd?t=1696005467",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/dash_h264.mpd?t=1696005467",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/612468/aa5a28c78f12232e6b6839034550c28b162fad3e/1748810724/hls_264_master.m3u8?t=1696005467",
+          "highlight": true
+        },
+        {
+          "id": 256970298,
+          "name": "Moving Beyond Tick Rate",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256970298/movie.293x165.jpg?t=1696005475",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/dash_av1.mpd?t=1696005475",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/dash_h264.mpd?t=1696005475",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/608984/a3ae9d5b8de21282056059ca5e851a063a253a55/1748810722/hls_264_master.m3u8?t=1696005475",
+          "highlight": true
+        },
+        {
+          "id": 256969703,
+          "name": "Leveling Up",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256969703/movie.293x165.jpg?t=1696005483",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/dash_av1.mpd?t=1696005483",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/dash_h264.mpd?t=1696005483",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/730/607867/ed6e0afecb45c615095cf8d84cec9d31659a3cc7/1748810722/hls_264_master.m3u8?t=1696005483",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:22.648263+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "21 aout 2012"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      }
+    },
+    {
+      "id": "1422450",
+      "appid": 1422450,
+      "name": "Deadlock",
+      "genre": "MOBA",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        25,
+        50
+      ],
+      "description": "Combinez les pouvoirs de vos héros et vos tirs dans des affrontements mêlant MOBA et action à la troisième personne. Coordonnez vos rotations pour prendre l’avantage.",
+      "note": "À 5 : choisir le mode Standard, sans restriction de taille de groupe annoncée dans la mise à jour du 30 juillet 2026. Le classé est distinct. Playtest accessible sur invitation, chaque ami doit déjà avoir accès.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://store.steampowered.com/app/1422450/",
+      "teamSize": 6,
+      "playtest": true,
+      "evidence": "https://store.steampowered.com/news/app/1422450/view/680756685198854910",
+      "price": null,
+      "priceInitial": null,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/1422450-image.jpg",
+      "poster": "/assets/1422450-poster.jpg",
+      "movies": [],
+      "fetchedAt": "2026-11-14T15:51:22.388809+00:00",
+      "release": {
+        "coming_soon": true,
+        "date": "À déterminer"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "league-of-legends",
+      "appid": null,
+      "name": "League of Legends",
+      "genre": "MOBA",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        25,
+        45
+      ],
+      "description": "Une équipe de cinq, cinq rôles et un Nexus adverse à détruire. Choisissez des champions complémentaires et coordonnez objectifs, combats et progression.",
+      "note": "Jouez à 5 en parties normales, ARAM ou dans les files classées d’équipe compatibles. La Solo/Duo ne permet pas un groupe de 5. Comptes sur le même serveur Riot.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://www.leagueoflegends.com/fr-fr/",
+      "teamSize": 5,
+      "free": true,
+      "price": 0,
+      "distribution": "Riot Games",
+      "aliases": [
+        "lol",
+        "league"
+      ],
+      "evidence": "https://support.riotgames.com/zh-my/league-of-legends/gameplay/ranked-tiers-divisions-and-queues",
+      "image": "/assets/league-of-legends-image.jpg",
+      "poster": "/assets/league-of-legends-image.jpg",
+      "movies": [
+        {
+          "name": "Aperçu officiel Riot Games",
+          "mp4": {
+            "max": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/bbc27473157462adacf0de441a8796268eb2d0ac.mp4?accountingTag=LoL"
+          }
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:22.504626+00:00",
+      "mediaLabel": "APERÇU OFFICIEL · RIOT GAMES"
+    },
+    {
+      "id": "valorant",
+      "appid": null,
+      "name": "VALORANT",
+      "genre": "FPS",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        25,
+        45
+      ],
+      "description": "Associez des agents aux compétences complémentaires dans un FPS tactique à cinq contre cinq. Préparez vos entrées et vos reprises de site autour du Spike.",
+      "note": "Groupe de cinq possible ; les règles de classement, les prérequis des comptes et les réductions de gains de rang dépendent du mode. Tous sur une région compatible.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://playvalorant.com/fr-fr/",
+      "teamSize": 5,
+      "free": true,
+      "price": 0,
+      "distribution": "Riot Games",
+      "evidence": "https://support.riotgames.com/en-us/valorant/gameplay/valorant-competitive-mode-faq",
+      "image": "/assets/valorant-image.jpg",
+      "poster": "/assets/valorant-image.jpg",
+      "movies": [
+        {
+          "name": "Aperçu officiel Riot Games",
+          "mp4": {
+            "max": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news_live/74d9d9fd8664d1c431b4b82d007f968eacb3e8b4.mp4?accountingTag=VAL"
+          }
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:22.734528+00:00",
+      "mediaLabel": "APERÇU OFFICIEL · RIOT GAMES"
+    },
+    {
+      "id": "570",
+      "appid": 570,
+      "name": "Dota 2",
+      "genre": "MOBA",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        30,
+        60
+      ],
+      "description": "Construisez une composition de cinq héros et défendez votre Ancien tout en attaquant celui de l’adversaire. Un MOBA exigeant avec beaucoup de stratégies à expérimenter.",
+      "note": "Groupe de cinq possible. Privilégiez le non-classé pour débuter ; l’accès au classé et certaines associations de rangs sont soumis à des restrictions.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://store.steampowered.com/app/570/",
+      "teamSize": 5,
+      "price": 0,
+      "priceInitial": null,
+      "discount": 0,
+      "free": true,
+      "image": "/assets/570-image.jpg",
+      "poster": "/assets/570-poster.jpg",
+      "movies": [
+        {
+          "id": 256692021,
+          "name": "Dota 2 - Join the Battle",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256692021/movie.293x165.jpg?t=1762820639",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/570/116737/313addee2092d0bd6f538d164610061ea8bbe79c/1749859757/dash_av1.mpd?t=1762820639",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/570/116737/313addee2092d0bd6f538d164610061ea8bbe79c/1749859757/dash_h264.mpd?t=1762820639",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/570/116737/313addee2092d0bd6f538d164610061ea8bbe79c/1749859757/hls_264_master.m3u8?t=1762820639",
+          "highlight": true
+        },
+        {
+          "id": 256819789,
+          "name": "Dota 2 - Sizzle Reel",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256819789/movie.293x165.jpg?t=1762820641",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/570/343440/a4bddad5bacce0e8395f7458ef4d8d9bad3efca9/1749859790/dash_av1.mpd?t=1762820641",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/570/343440/a4bddad5bacce0e8395f7458ef4d8d9bad3efca9/1749859790/dash_h264.mpd?t=1762820641",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/570/343440/a4bddad5bacce0e8395f7458ef4d8d9bad3efca9/1749859790/hls_264_master.m3u8?t=1762820641",
+          "highlight": true
+        },
+        {
+          "id": 2028243,
+          "name": "Dota 2 - The Greeviling",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2028243/movie.293x165.jpg?t=1762820644",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/570/10127/a886b09aeea73e11d5c7305afa4e68698976808c/1749859753/dash_av1.mpd?t=1762820644",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/570/10127/a886b09aeea73e11d5c7305afa4e68698976808c/1749859753/dash_h264.mpd?t=1762820644",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/570/10127/a886b09aeea73e11d5c7305afa4e68698976808c/1749859753/hls_264_master.m3u8?t=1762820644",
+          "highlight": false
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:22.485157+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "9 juil. 2013"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "359550",
+      "appid": 359550,
+      "name": "Rainbow Six Siege",
+      "genre": "FPS",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        20,
+        45
+      ],
+      "description": "Préparez vos défenses ou infiltrez un bâtiment avec votre escouade de cinq. Drones, gadgets et destruction permettent de créer vos propres plans d’attaque.",
+      "note": "Choisir les modes tactiques 5 contre 5. Le contenu inclus et l’accès au classé dépendent de l’édition et du compte.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://store.steampowered.com/app/359550/",
+      "teamSize": 5,
+      "evidence": "https://www.ubisoft.com/en-us/game/rainbow-six/siege/game-info/discover",
+      "price": 0,
+      "priceInitial": null,
+      "discount": 0,
+      "free": true,
+      "image": "/assets/359550-image.jpg",
+      "poster": "/assets/359550-poster.jpg",
+      "movies": [
+        {
+          "id": 257348863,
+          "name": "Y11S3 Launch Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257348863/677073312765855b5295c8629dc0924df67e1b3f/movie_600x337.jpg?t=1788282021",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/359550/1888613436/b543c846a1f5bd39e4b790745ee5426f0b9b1423/1788250020/dash_av1.mpd?t=1788282021",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/1888613436/b543c846a1f5bd39e4b790745ee5426f0b9b1423/1788250020/dash_h264.mpd?t=1788282021",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/1888613436/b543c846a1f5bd39e4b790745ee5426f0b9b1423/1788250020/hls_264_master.m3u8?t=1788282021",
+          "highlight": true
+        },
+        {
+          "id": 257348864,
+          "name": "Y11S3 CGI Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257348864/815bd6dc50a50ab65df17a883b2dc958c3867db9/movie_600x337.jpg?t=1788282022",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/359550/715727017/613526ece4cf3443c94387c693a2b44a1b31f8a0/1788250020/dash_av1.mpd?t=1788282022",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/715727017/613526ece4cf3443c94387c693a2b44a1b31f8a0/1788250020/dash_h264.mpd?t=1788282022",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/359550/715727017/613526ece4cf3443c94387c693a2b44a1b31f8a0/1788250020/hls_264_master.m3u8?t=1788282022",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:22.665774+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "1 déc. 2015"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "2073850",
+      "appid": 2073850,
+      "name": "THE FINALS",
+      "genre": "FPS",
+      "minPlayers": 1,
+      "maxPlayers": 5,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        10,
+        25
+      ],
+      "description": "Traversez des arènes destructibles et escortez une plateforme mobile en équipe. Alternez gadgets, déplacements et démolition pour prendre le contrôle.",
+      "note": "À 5 : choisissez Power Shift (5v5). Les modes Cashout classiques se jouent en équipes de 3 et ne conviennent pas à votre groupe.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://store.steampowered.com/app/2073850/",
+      "teamSize": 5,
+      "evidence": "https://www.reachthefinals.com/power-shift",
+      "price": 0,
+      "priceInitial": null,
+      "discount": 0,
+      "free": true,
+      "image": "/assets/2073850-image.jpg",
+      "poster": "/assets/2073850-poster.jpg",
+      "movies": [
+        {
+          "id": 257470601,
+          "name": "THE FINALS - Gameplay Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257470601/78baec94bf077b443dff76c850df2f2a71aa9958/movie_600x337.jpg?t=1792501372",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2073850/892482080/d82cc439879e79bf7998410599dcf285dc664a49/1792491875/dash_av1.mpd?t=1792501372",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2073850/892482080/d82cc439879e79bf7998410599dcf285dc664a49/1792491875/dash_h264.mpd?t=1792501372",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2073850/892482080/d82cc439879e79bf7998410599dcf285dc664a49/1792491875/hls_264_master.m3u8?t=1792501372",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:22.771308+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "7 déc. 2023"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "2767030",
+      "appid": 2767030,
+      "name": "Marvel Rivals",
+      "genre": "Hero shooter",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        10,
+        25
+      ],
+      "description": "Combinez les pouvoirs de héros Marvel dans des affrontements par équipes. Répartissez les rôles et profitez des synergies pour faire basculer la partie.",
+      "note": "À 5, privilégiez la partie rapide dans une équipe de 6. En classé, les restrictions de groupe et de plateforme peuvent varier selon les rangs.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://store.steampowered.com/app/2767030/",
+      "teamSize": 6,
+      "price": 0,
+      "priceInitial": null,
+      "discount": 0,
+      "free": true,
+      "image": "/assets/2767030-image.jpg",
+      "poster": "/assets/2767030-poster.jpg",
+      "movies": [
+        {
+          "id": 257504550,
+          "name": "Doomsday | Marvel Rivals Season 11 Trailer | Marvel Rivals",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257504550/0d1bab394e25af8347be0c052e0a3e22a2413845/movie_600x337.jpg?t=1794560361",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2767030/939583933/01541fd34543f56392e7c86c471ab51ee24ffc4a/1794557148/dash_av1.mpd?t=1794560361",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2767030/939583933/01541fd34543f56392e7c86c471ab51ee24ffc4a/1794557148/dash_h264.mpd?t=1794560361",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2767030/939583933/01541fd34543f56392e7c86c471ab51ee24ffc4a/1794557148/hls_264_master.m3u8?t=1794560361",
+          "highlight": true
+        },
+        {
+          "id": 257453703,
+          "name": "Path to Doomsday - Avengers: Infinity War | New PvP Mode Trailer | Marvel Rivals",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257453703/c8377c6710a6226952a19c8663b807987b264090/movie_600x337.jpg?t=1791536404",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2767030/838245032/e9ce45a69f675a9b5580cd75e84610098c4c9d0c/1791528757/dash_av1.mpd?t=1791536404",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2767030/838245032/e9ce45a69f675a9b5580cd75e84610098c4c9d0c/1791528757/dash_h264.mpd?t=1791536404",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2767030/838245032/e9ce45a69f675a9b5580cd75e84610098c4c9d0c/1791528757/hls_264_master.m3u8?t=1791536404",
+          "highlight": false
+        },
+        {
+          "id": 257422551,
+          "name": "Butcher's Blasphemy | Marvel Rivals Season 10 Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257422551/bead0ffca6bf14f64db32a87304c0c4b83301b0e/movie_600x337.jpg?t=1789117455",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2767030/928852697/63c5517ad25d8b7da1fbfcfbb7f825c96e0dba66/1789112624/dash_av1.mpd?t=1789117455",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2767030/928852697/63c5517ad25d8b7da1fbfcfbb7f825c96e0dba66/1789112624/dash_h264.mpd?t=1789117455",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2767030/928852697/63c5517ad25d8b7da1fbfcfbb7f825c96e0dba66/1789112624/hls_264_master.m3u8?t=1789117455",
+          "highlight": false
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:22.783100+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "5 déc. 2024"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "1203620",
+      "appid": 1203620,
+      "name": "Enshrouded",
+      "genre": "Survie",
+      "minPlayers": 1,
+      "maxPlayers": 16,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        45,
+        120
+      ],
+      "description": "Explorez un royaume envahi par la brume, bâtissez votre camp et équipez votre groupe. Répartissez-vous entre exploration, construction et combats.",
+      "note": "Jusqu’à 16 joueurs sur le même monde. Prévoir un hôte disponible ou un serveur dédié pour poursuivre la partie ensemble.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/1203620/",
+      "price": 39.99,
+      "priceInitial": 39.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/1203620-image.jpg",
+      "poster": "/assets/1203620-poster.jpg",
+      "movies": [
+        {
+          "id": 257461228,
+          "name": "Enshrouded 1.0 - Launch Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257461228/0bfd7fa6f9987b5523f4d0bf8e279d83803402c9/movie_600x337.jpg?t=1792000003",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203620/857842467/c7f915630fec65980651e009266b02acdbeb060f/1791996968/dash_av1.mpd?t=1792000003",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203620/857842467/c7f915630fec65980651e009266b02acdbeb060f/1791996968/dash_h264.mpd?t=1792000003",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203620/857842467/c7f915630fec65980651e009266b02acdbeb060f/1791996968/hls_264_master.m3u8?t=1792000003",
+          "highlight": true
+        },
+        {
+          "id": 257229014,
+          "name": "Enshrouded - Wake of the Water | Official Update Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257229014/c00e2bec3cf228adce46b702c7adca0629f073c9/movie_600x337.jpg?t=1762780500",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1203620/1245750690/ff0d3eb6a271e14df7fdc0ba47a748b152f56981/1762762821/dash_av1.mpd?t=1762780500",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1203620/1245750690/ff0d3eb6a271e14df7fdc0ba47a748b152f56981/1762762821/dash_h264.mpd?t=1762780500",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1203620/1245750690/ff0d3eb6a271e14df7fdc0ba47a748b152f56981/1762762821/hls_264_master.m3u8?t=1762780500",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:22.900973+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "15 oct. 2026"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "1326470",
+      "appid": 1326470,
+      "name": "Sons Of The Forest",
+      "genre": "Survie",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        45,
+        120
+      ],
+      "description": "Construisez un refuge sur une île hostile, explorez ses grottes et préparez vos expéditions. À cinq, organisez la collecte, les défenses et les sorties.",
+      "note": "Coopération en ligne sur un monde commun ; chaque joueur doit posséder son exemplaire. Contenu horrifique.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/1326470/",
+      "price": 28.99,
+      "priceInitial": 28.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/1326470-image.jpg",
+      "poster": "/assets/1326470-poster.jpg",
+      "movies": [
+        {
+          "id": 256932123,
+          "name": "Sons Of The Forest Multiplayer Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256932123/movie.293x165.jpg?t=1677175226",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1326470/541725/76f298f949c4ae5b4257fa2056112f8d34285799/1750672622/dash_av1.mpd?t=1677175226",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1326470/541725/76f298f949c4ae5b4257fa2056112f8d34285799/1750672622/dash_h264.mpd?t=1677175226",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1326470/541725/76f298f949c4ae5b4257fa2056112f8d34285799/1750672622/hls_264_master.m3u8?t=1677175226",
+          "highlight": true
+        },
+        {
+          "id": 256880856,
+          "name": "Sons Of The Forest Trailer 3",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256880856/movie.293x165.jpg?t=1651692528",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1326470/452653/26cd55f7bd9aa55412f8b5fa91b9595b31855830/1750672607/dash_av1.mpd?t=1651692528",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1326470/452653/26cd55f7bd9aa55412f8b5fa91b9595b31855830/1750672607/dash_h264.mpd?t=1651692528",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1326470/452653/26cd55f7bd9aa55412f8b5fa91b9595b31855830/1750672607/hls_264_master.m3u8?t=1651692528",
+          "highlight": true
+        },
+        {
+          "id": 256880855,
+          "name": "Sons Of The Forest Trailer 2",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256880855/movie.293x165.jpg?t=1651692533",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1326470/452652/f4a8153a2aa101c8594446b339036cb3d28cf601/1750672607/dash_av1.mpd?t=1651692533",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1326470/452652/f4a8153a2aa101c8594446b339036cb3d28cf601/1750672607/dash_h264.mpd?t=1651692533",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1326470/452652/f4a8153a2aa101c8594446b339036cb3d28cf601/1750672607/hls_264_master.m3u8?t=1651692533",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:23.009594+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "22 févr. 2024"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "105600",
+      "appid": 105600,
+      "name": "Terraria",
+      "genre": "Aventure",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        30,
+        120
+      ],
+      "description": "Creusez, construisez et équipez-vous avant d’affronter les boss d’un monde en 2D. Chacun peut se spécialiser dans l’exploration, le combat ou la construction.",
+      "note": "La capacité retenue est de 8 pour une configuration courante. À 5 sur PC : héberger le monde et ouvrir au moins 5 places ; les plateformes ne se mélangent pas toutes.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/105600/",
+      "price": 9.75,
+      "priceInitial": 9.75,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/105600-image.jpg",
+      "poster": "/assets/105600-poster.jpg",
+      "movies": [
+        {
+          "id": 257274214,
+          "name": "Terraria: Bigger & Boulder Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257274214/3400c546ddc61c713c2a2da4df7032f0f264a2a4/movie_600x337.jpg?t=1769844434",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/105600/1114648825/03d62ed8c2a353ea17f36caf492d053746655032/1769541214/dash_av1.mpd?t=1769844434",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/1114648825/03d62ed8c2a353ea17f36caf492d053746655032/1769541214/dash_h264.mpd?t=1769844434",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/1114648825/03d62ed8c2a353ea17f36caf492d053746655032/1769541214/hls_264_master.m3u8?t=1769844434",
+          "highlight": true
+        },
+        {
+          "id": 256785003,
+          "name": "Terraria: Journey's End Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256785003/movie.293x165.jpg?t=1589654781",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/105600/284912/418f39cf00388fbdd8efcdc81e05c19c410dfb6d/1750498447/dash_av1.mpd?t=1589654781",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/284912/418f39cf00388fbdd8efcdc81e05c19c410dfb6d/1750498447/dash_h264.mpd?t=1589654781",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/284912/418f39cf00388fbdd8efcdc81e05c19c410dfb6d/1750498447/hls_264_master.m3u8?t=1589654781",
+          "highlight": true
+        },
+        {
+          "id": 2040428,
+          "name": "Terraria 1.3 Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2040428/movie.293x165.jpg?t=1447376855",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/105600/38483/f6e095fa12b129c503f70d104eb2e0d2fd106db1/1750498447/dash_av1.mpd?t=1447376855",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/38483/f6e095fa12b129c503f70d104eb2e0d2fd106db1/1750498447/dash_h264.mpd?t=1447376855",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/105600/38483/f6e095fa12b129c503f70d104eb2e0d2fd106db1/1750498447/hls_264_master.m3u8?t=1447376855",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:23.034783+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "16 mai 2011"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "322330",
+      "appid": 322330,
+      "name": "Don’t Starve Together",
+      "genre": "Survie",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        30,
+        90
+      ],
+      "description": "Affrontez ensemble les saisons, la faim et les créatures d’un monde étrange. Préparez le camp et répartissez les tâches avant la nuit.",
+      "note": "Jusqu’à 6 dans une configuration standard ; le groupe de 5 ne nécessite pas de mod. Une erreur peut compromettre la survie collective.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/322330/",
+      "price": 14.99,
+      "priceInitial": 14.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/322330-image.jpg",
+      "poster": "/assets/322330-poster.jpg",
+      "movies": [
+        {
+          "id": 257473156,
+          "name": "Cursed Confrontation Part 2",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257473156/ca1aab42f0026d66f36b1045904309095c7e4d9f/movie_600x337.jpg?t=1792687772",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/322330/13124838/1ea2167e490778b01738b50de8ee88127b193d41/1792614577/dash_av1.mpd?t=1792687772",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/322330/13124838/1ea2167e490778b01738b50de8ee88127b193d41/1792614577/dash_h264.mpd?t=1792687772",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/322330/13124838/1ea2167e490778b01738b50de8ee88127b193d41/1792614577/hls_264_master.m3u8?t=1792687772",
+          "highlight": true
+        },
+        {
+          "id": 257354759,
+          "name": "Cursed Confrontation Part 1",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257354759/8aec9cd17aa9b61c9fa4758d1053b83cf5a9d842/movie_600x337.jpg?t=1781196639",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/322330/772813262/1eaf63bd89a720d7897d5bef28700cd93fdeeb0b/1781047716/dash_av1.mpd?t=1781196639",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/322330/772813262/1eaf63bd89a720d7897d5bef28700cd93fdeeb0b/1781047716/dash_h264.mpd?t=1781196639",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/322330/772813262/1eaf63bd89a720d7897d5bef28700cd93fdeeb0b/1781047716/hls_264_master.m3u8?t=1781196639",
+          "highlight": true
+        },
+        {
+          "id": 257320953,
+          "name": "Wx-78 Skill Spotlight",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257320953/1d6a796826f397f77045ec83d8a1d72671690d20/movie_600x337.jpg?t=1776359429",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/322330/1654751406/ed2882d005578965c224fdd45423bf7afb38a3b8/1776356255/dash_av1.mpd?t=1776359429",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/322330/1654751406/ed2882d005578965c224fdd45423bf7afb38a3b8/1776356255/dash_h264.mpd?t=1776359429",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/322330/1654751406/ed2882d005578965c224fdd45423bf7afb38a3b8/1776356255/hls_264_master.m3u8?t=1776359429",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:23.021378+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "21 avr. 2016"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "2916430",
+      "appid": 2916430,
+      "name": "Fast Food Simulator",
+      "genre": "Cuisine",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        20,
+        45
+      ],
+      "description": "Prenez les commandes, préparez les burgers et organisez votre restaurant. À cinq, chaque poste compte pour faire avancer le service.",
+      "note": "Coopération en ligne jusqu’à 6 joueurs, sans mod pour jouer à 5.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/2916430/",
+      "price": 14.79,
+      "priceInitial": 14.79,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/2916430-image.jpg",
+      "poster": "/assets/2916430-poster.jpg",
+      "movies": [
+        {
+          "id": 257050056,
+          "name": "Fast Food Simulator Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257050056/movie.293x165.jpg?t=1724783694",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2916430/747038/d47ed48c82369504e819848e417ed7f34b4d2739/1750821410/dash_av1.mpd?t=1724783694",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2916430/747038/d47ed48c82369504e819848e417ed7f34b4d2739/1750821410/dash_h264.mpd?t=1724783694",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2916430/747038/d47ed48c82369504e819848e417ed7f34b4d2739/1750821410/hls_264_master.m3u8?t=1724783694",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:23.018611+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "10 déc. 2024"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "2709570",
+      "appid": 2709570,
+      "name": "Supermarket Together",
+      "genre": "Simulation",
+      "minPlayers": 1,
+      "maxPlayers": 16,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        20,
+        60
+      ],
+      "description": "Montez votre supermarché entre amis. Remplissez les rayons, encaissez les clients et améliorez le magasin en répartissant les tâches.",
+      "note": "Jeu de base gratuit. Jusqu’à 16 joueurs en ligne ; certains contenus supplémentaires peuvent être payants.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/2709570/",
+      "price": 0,
+      "priceInitial": null,
+      "discount": 0,
+      "free": true,
+      "image": "/assets/2709570-image.jpg",
+      "poster": "/assets/2709570-poster.jpg",
+      "movies": [
+        {
+          "id": 257042383,
+          "name": "SupermarketTogether_Trailer1",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257042383/movie.293x165.jpg?t=1722510053",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2709570/733877/2728beedd3c68f8bc8b4498db081d424f48ca458/1750819061/dash_av1.mpd?t=1722510053",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2709570/733877/2728beedd3c68f8bc8b4498db081d424f48ca458/1750819061/dash_h264.mpd?t=1722510053",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2709570/733877/2728beedd3c68f8bc8b4498db081d424f48ca458/1750819061/hls_264_master.m3u8?t=1722510053",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:23.173213+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "9 aout 2024"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "1623730",
+      "appid": 1623730,
+      "name": "Palworld",
+      "genre": "Survie",
+      "minPlayers": 1,
+      "maxPlayers": 32,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        45,
+        120
+      ],
+      "description": "Explorez un monde peuplé de Pals, construisez votre base et partez affronter ses dangers. Organisez la production et les expéditions en groupe.",
+      "note": "À 5 : serveur dédié ou communautaire obligatoire (jusqu’à 32). La coop hébergée directement dans une sauvegarde est limitée à 4.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/1623730/",
+      "price": 28.99,
+      "priceInitial": 28.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/1623730-image.jpg",
+      "poster": "/assets/1623730-poster.jpg",
+      "movies": [
+        {
+          "id": 257373728,
+          "name": "Palworld 1.0 Official Launch Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257373728/7e13113e161160ac94f46ef35ac809e374f7ab7e/movie_600x337.jpg?t=1783652949",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/1248102289/5810f9197a1aa0ad560333997b04947d443c7bcd/1783607226/dash_av1.mpd?t=1783652949",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/1248102289/5810f9197a1aa0ad560333997b04947d443c7bcd/1783607226/dash_h264.mpd?t=1783652949",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/1248102289/5810f9197a1aa0ad560333997b04947d443c7bcd/1783607226/hls_264_master.m3u8?t=1783652949",
+          "highlight": true
+        },
+        {
+          "id": 257351727,
+          "name": "Palworld 1.0 Cinematic Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257351727/aa6c1eb3713c2e6707bba09081ec940168052ab8/movie_600x337.jpg?t=1780701306",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/1835768144/fe4d152e82cc30c4a0c6b66de7a4326410e0cf5d/1780700542/dash_av1.mpd?t=1780701306",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/1835768144/fe4d152e82cc30c4a0c6b66de7a4326410e0cf5d/1780700542/dash_h264.mpd?t=1780701306",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/1835768144/fe4d152e82cc30c4a0c6b66de7a4326410e0cf5d/1780700542/hls_264_master.m3u8?t=1780701306",
+          "highlight": true
+        },
+        {
+          "id": 257161157,
+          "name": "Tides of Terraria Update Gameplay Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257161157/cc767bd10cc47563631ab24e71ed811ac2f4d4e0/movie_600x337.jpg?t=1752129517",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1623730/113039709/3b5ebaedd8250085a582f5078ba2f873d868f6ed/1750822061/dash_av1.mpd?t=1752129517",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/113039709/3b5ebaedd8250085a582f5078ba2f873d868f6ed/1750822061/dash_h264.mpd?t=1752129517",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1623730/113039709/3b5ebaedd8250085a582f5078ba2f873d868f6ed/1750822061/hls_264_master.m3u8?t=1752129517",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T15:51:23.439687+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "9 juil. 2026"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
       "id": "3241660",
       "appid": 3241660,
       "name": "R.E.P.O.",
@@ -54,7 +892,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:01.255824+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.418785+00:00",
       "release": {
         "coming_soon": false,
         "date": "26 févr. 2025"
@@ -102,7 +940,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:01.255290+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.318514+00:00",
       "release": {
         "coming_soon": false,
         "date": "12 sept. 2024"
@@ -150,7 +988,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:01.214408+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.294407+00:00",
       "release": {
         "coming_soon": false,
         "date": "20 sept. 2018"
@@ -215,7 +1053,7 @@
           "highlight": false
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:01.247582+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.520621+00:00",
       "release": {
         "coming_soon": false,
         "date": "22 juil. 2025"
@@ -263,7 +1101,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:01.249177+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.559178+00:00",
       "release": {
         "coming_soon": false,
         "date": "7 mai 2021"
@@ -311,7 +1149,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:01.805959+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.569383+00:00",
       "release": {
         "coming_soon": false,
         "date": "13 aout 2026"
@@ -376,7 +1214,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:01.844127+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.690244+00:00",
       "release": {
         "coming_soon": false,
         "date": "9 sept. 2026"
@@ -441,7 +1279,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:01.859656+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.674423+00:00",
       "release": {
         "coming_soon": false,
         "date": "27 aout 2024"
@@ -478,7 +1316,7 @@
       "image": "/assets/923130-image.jpg",
       "poster": "/assets/923130-poster.jpg",
       "movies": [],
-      "fetchedAt": "2026-11-14T14:51:01.870366+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.804351+00:00",
       "release": {
         "coming_soon": false,
         "date": "24 sept. 2018"
@@ -544,7 +1382,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:01.853147+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.813374+00:00",
       "release": {
         "coming_soon": false,
         "date": "16 nov. 2018"
@@ -609,7 +1447,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:02.380223+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.888228+00:00",
       "release": {
         "coming_soon": false,
         "date": "22 juil. 2016"
@@ -674,7 +1512,7 @@
           "highlight": false
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:02.379223+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.882711+00:00",
       "release": {
         "coming_soon": false,
         "date": "19 mai 2020"
@@ -739,7 +1577,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:02.378223+00:00",
+      "fetchedAt": "2026-11-14T15:51:23.971355+00:00",
       "release": {
         "coming_soon": false,
         "date": "13 mars 2023"
@@ -805,7 +1643,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:02.418943+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.123800+00:00",
       "release": {
         "coming_soon": false,
         "date": "17 déc. 2024"
@@ -852,7 +1690,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:02.749357+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.146292+00:00",
       "release": {
         "coming_soon": false,
         "date": "13 févr. 2025"
@@ -899,7 +1737,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:02.956626+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.233785+00:00",
       "release": {
         "coming_soon": false,
         "date": "20 déc. 2024"
@@ -956,7 +1794,7 @@
           "highlight": false
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:03.038344+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.280864+00:00",
       "release": {
         "coming_soon": false,
         "date": "31 janv. 2025"
@@ -1012,7 +1850,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:03.046520+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.319113+00:00",
       "release": {
         "coming_soon": false,
         "date": "13 nov. 2019"
@@ -1061,7 +1899,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:03.221540+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.473043+00:00",
       "release": {
         "coming_soon": false,
         "date": "3 mars 2022"
@@ -1112,7 +1950,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:03.798830+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.575070+00:00",
       "release": {
         "coming_soon": false,
         "date": "4 aout 2022"
@@ -1169,7 +2007,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:04.329635+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.538409+00:00",
       "release": {
         "coming_soon": false,
         "date": "9 juin 2022"
@@ -1235,7 +2073,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:04.277134+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.564035+00:00",
       "release": {
         "coming_soon": false,
         "date": "16 juin 2022"
@@ -1281,7 +2119,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:04.460429+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.578582+00:00",
       "release": {
         "coming_soon": true,
         "date": "À déterminer"
@@ -1329,7 +2167,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:04.547145+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.762045+00:00",
       "release": {
         "coming_soon": false,
         "date": "15 avr. 2026"
@@ -1377,7 +2215,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T14:51:04.627313+00:00",
+      "fetchedAt": "2026-11-14T15:51:24.818644+00:00",
       "release": {
         "coming_soon": false,
         "date": "1 déc. 2021"
@@ -1426,7 +2264,7 @@
       "uncertain": true
     }
   ],
-  "updatedAt": "2026-11-14T14:51:06.002238+00:00",
+  "updatedAt": "2026-11-14T15:51:24.819645+00:00",
   "region": "FR",
   "currency": "EUR"
 }

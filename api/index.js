@@ -27,7 +27,7 @@ export default async function handler(req,res){
   const name=typeof b.name==='string'?b.name.trim().normalize('NFC'):'';
   if(['create','join'].includes(b.action)&&(!name||name.length>30||/[\u0000-\u001f\u007f]/.test(name)))return send(res,400,{error:'Indiquez un prénom entre 1 et 30 caractères.'});
   if(b.action==='vote'){
-    if(!['yes','no','clear'].includes(b.vote))return send(res,400,{error:'Vote invalide.'});
+    if(!['yes','super','no','clear'].includes(b.vote))return send(res,400,{error:'Vote invalide.'});
     if(!(await catalog()).games.some(g=>g.id===String(b.game)))return send(res,400,{error:'Jeu inconnu.'});
   }
   if(!process.env.SUPABASE_URL||!process.env.SUPABASE_SERVICE_ROLE_KEY)return send(res,503,{error:'Le salon sera disponible une fois Supabase configuré.',code:'NOT_CONFIGURED'});

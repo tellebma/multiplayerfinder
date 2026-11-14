@@ -9,7 +9,25 @@ def enrich(g, previous):
     old = previous.get(g['id'], {})
     for k in ('price','priceInitial','discount','free','image','poster','movies','fetchedAt','release','platforms'):
         if k in old: out[k] = old[k]
-    if not g['appid']: return out
+    if not g['appid']:
+        if g['id'] in ('league-of-legends','valorant'):
+            # Official Riot product pages provide preview clips and artwork.
+            import re, html
+            try:
+                with urllib.request.urlopen(g['source'],timeout=15) as r: page=r.read().decode()
+                image_urls=list(dict.fromkeys(re.findall(r'https[^\s"<>]*?1920x1080[^\s"<>]*',page)))
+                video_urls=list(dict.fromkeys(re.findall(r'https[^\s"<>]*?\.mp4[^\s"<>]*',page)))
+                if image_urls:
+                    url=html.unescape(image_urls[0]); assets=ROOT/'public'/'assets';assets.mkdir(exist_ok=True)
+                    target=assets/f"{g['id']}-image.jpg"
+                    if not target.exists():
+                        with urllib.request.urlopen(url,timeout=15) as r:target.write_bytes(r.read())
+                    out['image']=out['poster']=f'/assets/{target.name}'
+                if video_urls:out['movies']=[{'name':'Aperçu officiel Riot Games','mp4':{'max':html.unescape(video_urls[0])}}]
+                out['fetchedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+                out['mediaLabel']='APERÇU OFFICIEL · RIOT GAMES'
+            except Exception as e:print(f"Riot media unavailable for {g['name']}: {type(e).__name__}",flush=True)
+        return out
     try:
         url = f"https://store.steampowered.com/api/appdetails?appids={g['appid']}&cc=fr&l=french"
         req = urllib.request.Request(url, headers={'User-Agent':'JVFinder-local/1.0'})
@@ -35,7 +53,7 @@ def enrich(g, previous):
         out['priceInitial'] = p.get('initial',0)/100 if p.get('currency')=='EUR' else None
         out['discount'] = p.get('discount_percent',0)
         # An announced title should remain out of the available-now deck.
-        if out['release'].get('coming_soon'): out['unreleased']=True
+        if out['release'].get('coming_soon') and not g.get('playtest'): out['unreleased']=True
     except Exception as e:
         print(f"Steam unavailable for {g['name']}: {type(e).__name__}", flush=True)
     return out

@@ -41,5 +41,5 @@ test('cloud setup is reported accurately when configuration is missing',async()=
   assert.equal((await request(null,{},'GET','health')).data.configured,false);
   assert.equal((await request(valid)).status,503);
   const result=await request(null,{},'GET','games');
-  assert.equal(result.status,200);assert.equal(result.data.games.length,27);
+  assert.equal(result.status,200);assert.ok(result.data.games.length>=42);assert.ok(result.data.games.some(g=>g.id==='league-of-legends'));assert.ok(result.data.games.some(g=>g.id==='730'));
 });
