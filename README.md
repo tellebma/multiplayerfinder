@@ -77,3 +77,15 @@ Les choix déjà enregistrés orientent immédiatement le classement. Les super-
 La table privée `jvf_events` journalise les créations, les arrivées et les changements de votes à partir de l’installation de la migration `20261114154512_superlikes_and_vote_history.sql`. Elle contient identifiants de salon/personne/jeu, ancien et nouveau vote, date et action. Aucun token, hash de token ni appel périodique n’y est journalisé. Elle n’est accessible ni aux clients anonymes ni aux membres via l’API de l’application. Les anciennes valeurs de vote antérieures à cette migration ne peuvent pas être reconstituées.
 
 Les logs d’erreurs techniques restent consultables dans Supabase et Vercel. Les données de test sont supprimées après vérification.
+
+## Compte Steam et amis
+
+« Connexion Steam » utilise OpenID 2.0 : Steam authentifie la personne sur son propre site. JVFinder vérifie l’identité, la signature auprès de Steam, le domaine de retour, l’état de connexion et un nonce à usage unique. Les sessions sont conservées dans des cookies HttpOnly de 30 jours, révocables par déconnexion ; seuls leurs hash sont stockés dans Supabase. Un compte ne peut prendre qu’une place par salon. Les accès invités existants continuent de fonctionner ; une place rattachée à Steam nécessite ensuite la connexion à ce compte.
+
+Les votes et filtres sont liés au profil Steam. La première connexion rattache l’accès invité courant et conserve les votes existants. Les choix du compte déjà enregistrés ont priorité lors de l’import de données locales. Les nouveaux salons reprennent les préférences personnelles ; les votes déjà présents dans un ancien salon sont préservés. « Mon compte » permet de retrouver ses salons sur un autre appareil et de consulter ses jeux aimés.
+
+Configurer `APP_URL=https://multiplayerfinder.vercel.app` dans Vercel et appliquer la migration `20261114161451_steam_accounts_and_preferences.sql`. Pour le développement local, utiliser `APP_URL=http://localhost:8765`. Cette URL est canonique et n’est jamais déduite d’un en-tête Host non fiable.
+
+La connexion et les préférences fonctionnent sans clé Steam Web API. Pour charger les amis, ajouter **`STEAM_WEB_API_KEY`** comme secret serveur Vercel, puis redéployer. Créer la clé sur `https://steamcommunity.com/dev/apikey` pour le domaine du site. Ne jamais publier cette clé dans Git ou dans le chat. Une liste d’amis privée renvoie un état explicite et laisse disponible l’invitation par lien. Les amis sont mis en cache deux minutes en mémoire, sans copie intégrale en base ; au plus 500 profils sont affichés.
+
+Les invitations sont des invitations **JVFinder**, visibles par le destinataire connecté au même compte Steam. Aucun message Steam n’est envoyé automatiquement. Les amis sélectionnés ne sont pas ajoutés à une place avant d’avoir rejoint eux-mêmes le salon. La liste d’amis n’est accessible qu’à la personne connectée ; les préférences privées ne sont pas exposées aux autres membres.

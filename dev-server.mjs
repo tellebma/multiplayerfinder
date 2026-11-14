@@ -13,7 +13,7 @@ const server=http.createServer(async(req,res)=>{
     if(url.pathname.startsWith('/api/')){
       req.query={route:url.pathname.slice(5)};
       let chunks='',size=0;
-      for await(const chunk of req){size+=chunk.length;if(size>8192){res.status(413).json({error:'Requête trop grande.'});return;}chunks+=chunk;}
+      for await(const chunk of req){size+=chunk.length;if(size>20000){res.status(413).json({error:'Requête trop grande.'});return;}chunks+=chunk;}
       if(chunks){try{req.body=JSON.parse(chunks);}catch{res.status(400).json({error:'JSON invalide.'});return;}}
       return await handler(req,res);
     }
