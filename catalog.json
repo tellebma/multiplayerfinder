@@ -1,6 +1,36 @@
 {
   "games": [
     {
+      "id": "minecraft",
+      "appid": null,
+      "name": "Minecraft : Java & Bedrock Edition",
+      "genre": "Bac à sable",
+      "minPlayers": 1,
+      "maxPlayers": 11,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        30,
+        120
+      ],
+      "description": "Créez votre monde à cinq : construisez une base, explorez les grottes, cultivez et partez affronter les créatures. Jouez en survie ou donnez libre cours à vos idées en créatif.",
+      "note": "À 5 sur PC : utilisez un serveur proposant au moins 5 places, un Realm Java ou Realms Plus pour Bedrock. L’abonnement éventuel est payé par l’hôte, en plus du jeu. Tous doivent choisir la même édition : Java et Bedrock ne se rejoignent pas nativement. La capacité indiquée correspond au Realm Java (hôte + 10).",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://www.minecraft.net/fr-fr/about-minecraft",
+      "genres": [
+        "Bac à sable",
+        "Construction",
+        "Survie"
+      ],
+      "distribution": "Minecraft.net",
+      "evidence": "https://www.minecraft.net/en-us/realms",
+      "image": "/assets/minecraft-poster.png",
+      "poster": "/assets/minecraft-poster.png",
+      "mediaLabel": "ILLUSTRATION OFFICIELLE · MINECRAFT"
+    },
+    {
       "id": "730",
       "appid": 730,
       "name": "Counter-Strike 2",
@@ -60,7 +90,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:22.648263+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.339463+00:00",
       "release": {
         "coming_soon": false,
         "date": "21 aout 2012"
@@ -100,7 +130,7 @@
       "image": "/assets/1422450-image.jpg",
       "poster": "/assets/1422450-poster.jpg",
       "movies": [],
-      "fetchedAt": "2026-11-14T15:51:22.388809+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.397189+00:00",
       "release": {
         "coming_soon": true,
         "date": "À déterminer"
@@ -149,7 +179,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:22.504626+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.471560+00:00",
       "mediaLabel": "APERÇU OFFICIEL · RIOT GAMES"
     },
     {
@@ -186,7 +216,7 @@
           }
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:22.734528+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.374386+00:00",
       "mediaLabel": "APERÇU OFFICIEL · RIOT GAMES"
     },
     {
@@ -244,7 +274,7 @@
           "highlight": false
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:22.485157+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.391171+00:00",
       "release": {
         "coming_soon": false,
         "date": "9 juil. 2013"
@@ -302,7 +332,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:22.665774+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.644827+00:00",
       "release": {
         "coming_soon": false,
         "date": "1 déc. 2015"
@@ -351,7 +381,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:22.771308+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.779077+00:00",
       "release": {
         "coming_soon": false,
         "date": "7 déc. 2023"
@@ -417,7 +447,7 @@
           "highlight": false
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:22.783100+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.734974+00:00",
       "release": {
         "coming_soon": false,
         "date": "5 déc. 2024"
@@ -447,6 +477,11 @@
       "kind": "Coopération",
       "original": false,
       "source": "https://store.steampowered.com/app/1203620/",
+      "genres": [
+        "Survie",
+        "Construction",
+        "Bac à sable"
+      ],
       "price": 39.99,
       "priceInitial": 39.99,
       "discount": 0,
@@ -473,7 +508,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:22.900973+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.716065+00:00",
       "release": {
         "coming_soon": false,
         "date": "15 oct. 2026"
@@ -503,6 +538,11 @@
       "kind": "Coopération",
       "original": false,
       "source": "https://store.steampowered.com/app/1326470/",
+      "genres": [
+        "Survie",
+        "Construction",
+        "Bac à sable"
+      ],
       "price": 28.99,
       "priceInitial": 28.99,
       "discount": 0,
@@ -538,7 +578,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.009594+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.746512+00:00",
       "release": {
         "coming_soon": false,
         "date": "22 févr. 2024"
@@ -568,6 +608,11 @@
       "kind": "Coopération",
       "original": false,
       "source": "https://store.steampowered.com/app/105600/",
+      "genres": [
+        "Aventure",
+        "Construction",
+        "Bac à sable"
+      ],
       "price": 9.75,
       "priceInitial": 9.75,
       "discount": 0,
@@ -603,7 +648,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.034783+00:00",
+      "fetchedAt": "2026-11-14T17:45:56.946432+00:00",
       "release": {
         "coming_soon": false,
         "date": "16 mai 2011"
@@ -668,7 +713,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.021378+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.039122+00:00",
       "release": {
         "coming_soon": false,
         "date": "21 avr. 2016"
@@ -715,7 +760,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.018611+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.071557+00:00",
       "release": {
         "coming_soon": false,
         "date": "10 déc. 2024"
@@ -762,7 +807,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.173213+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.058088+00:00",
       "release": {
         "coming_soon": false,
         "date": "9 aout 2024"
@@ -792,6 +837,11 @@
       "kind": "Coopération",
       "original": false,
       "source": "https://store.steampowered.com/app/1623730/",
+      "genres": [
+        "Survie",
+        "Construction",
+        "Bac à sable"
+      ],
       "price": 28.99,
       "priceInitial": 28.99,
       "discount": 0,
@@ -827,7 +877,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.439687+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.124720+00:00",
       "release": {
         "coming_soon": false,
         "date": "9 juil. 2026"
@@ -892,7 +942,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.418785+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.256251+00:00",
       "release": {
         "coming_soon": false,
         "date": "26 févr. 2025"
@@ -940,7 +990,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.318514+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.351464+00:00",
       "release": {
         "coming_soon": false,
         "date": "12 sept. 2024"
@@ -988,7 +1038,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.294407+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.362354+00:00",
       "release": {
         "coming_soon": false,
         "date": "20 sept. 2018"
@@ -1053,7 +1103,7 @@
           "highlight": false
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.520621+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.408109+00:00",
       "release": {
         "coming_soon": false,
         "date": "22 juil. 2025"
@@ -1101,7 +1151,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.559178+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.481115+00:00",
       "release": {
         "coming_soon": false,
         "date": "7 mai 2021"
@@ -1149,7 +1199,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.569383+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.684501+00:00",
       "release": {
         "coming_soon": false,
         "date": "13 aout 2026"
@@ -1179,6 +1229,11 @@
       "kind": "Coopération",
       "original": false,
       "source": "https://store.steampowered.com/app/892970/",
+      "genres": [
+        "Survie",
+        "Construction",
+        "Bac à sable"
+      ],
       "price": 26.99,
       "priceInitial": 29.99,
       "discount": 10,
@@ -1214,7 +1269,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.690244+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.647978+00:00",
       "release": {
         "coming_soon": false,
         "date": "9 sept. 2026"
@@ -1244,6 +1299,11 @@
       "kind": "Coopération",
       "original": false,
       "source": "https://store.steampowered.com/app/1621690/",
+      "genres": [
+        "Survie",
+        "Construction",
+        "Bac à sable"
+      ],
       "price": 19.99,
       "priceInitial": 19.99,
       "discount": 0,
@@ -1279,7 +1339,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.674423+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.675960+00:00",
       "release": {
         "coming_soon": false,
         "date": "27 aout 2024"
@@ -1316,7 +1376,7 @@
       "image": "/assets/923130-image.jpg",
       "poster": "/assets/923130-poster.jpg",
       "movies": [],
-      "fetchedAt": "2026-11-14T15:51:23.804351+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.742444+00:00",
       "release": {
         "coming_soon": false,
         "date": "24 sept. 2018"
@@ -1382,7 +1442,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.813374+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.755999+00:00",
       "release": {
         "coming_soon": false,
         "date": "16 nov. 2018"
@@ -1447,7 +1507,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.888228+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.979634+00:00",
       "release": {
         "coming_soon": false,
         "date": "22 juil. 2016"
@@ -1512,7 +1572,7 @@
           "highlight": false
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.882711+00:00",
+      "fetchedAt": "2026-11-14T17:45:57.991589+00:00",
       "release": {
         "coming_soon": false,
         "date": "19 mai 2020"
@@ -1577,7 +1637,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:23.971355+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.049756+00:00",
       "release": {
         "coming_soon": false,
         "date": "13 mars 2023"
@@ -1643,7 +1703,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.123800+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.049756+00:00",
       "release": {
         "coming_soon": false,
         "date": "17 déc. 2024"
@@ -1690,7 +1750,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.146292+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.022356+00:00",
       "release": {
         "coming_soon": false,
         "date": "13 févr. 2025"
@@ -1737,7 +1797,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.233785+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.305476+00:00",
       "release": {
         "coming_soon": false,
         "date": "20 déc. 2024"
@@ -1794,7 +1854,7 @@
           "highlight": false
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.280864+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.280400+00:00",
       "release": {
         "coming_soon": false,
         "date": "31 janv. 2025"
@@ -1850,7 +1910,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.319113+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.345433+00:00",
       "release": {
         "coming_soon": false,
         "date": "13 nov. 2019"
@@ -1899,7 +1959,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.473043+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.343425+00:00",
       "release": {
         "coming_soon": false,
         "date": "3 mars 2022"
@@ -1950,7 +2010,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.575070+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.409884+00:00",
       "release": {
         "coming_soon": false,
         "date": "4 aout 2022"
@@ -2007,7 +2067,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.538409+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.593205+00:00",
       "release": {
         "coming_soon": false,
         "date": "9 juin 2022"
@@ -2073,7 +2133,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.564035+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.619751+00:00",
       "release": {
         "coming_soon": false,
         "date": "16 juin 2022"
@@ -2119,7 +2179,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.578582+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.649754+00:00",
       "release": {
         "coming_soon": true,
         "date": "À déterminer"
@@ -2167,7 +2227,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.762045+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.663070+00:00",
       "release": {
         "coming_soon": false,
         "date": "15 avr. 2026"
@@ -2215,7 +2275,7 @@
           "highlight": true
         }
       ],
-      "fetchedAt": "2026-11-14T15:51:24.818644+00:00",
+      "fetchedAt": "2026-11-14T17:45:58.698895+00:00",
       "release": {
         "coming_soon": false,
         "date": "1 déc. 2021"
@@ -2264,7 +2324,7 @@
       "uncertain": true
     }
   ],
-  "updatedAt": "2026-11-14T15:51:24.819645+00:00",
+  "updatedAt": "2026-11-14T17:45:58.898574+00:00",
   "region": "FR",
   "currency": "EUR"
 }

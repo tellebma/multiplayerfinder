@@ -1,20 +1,29 @@
 import { createHash } from 'node:crypto';
-import { readFile } from 'node:fs/promises';
+import { catalog, searchSteam, importSteam, hasGame } from '../lib/game-library.js';
 import { accountApi } from '../lib/account-api.js';
 import { sessionHash } from '../lib/steam.js';
 
 const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const tokenPattern=/^[0-9a-f]{64}$/;
 const allowedActions=new Set(['create','join','state','vote']);
-let catalogPromise;
-const catalog=()=>catalogPromise??=readFile(new URL('../catalog.json',import.meta.url),'utf8').then(JSON.parse);
 function send(res,status,data){res.setHeader('Cache-Control','private, no-store');return res.status(status).json(data);}
 export default async function handler(req,res){
   const requestUrl=new URL(req.url,'http://localhost');
   const route=String(req.query?.route||requestUrl.searchParams.get('route')||requestUrl.pathname.replace(/^\/api\/?/,''));
   if(route==='account'||route.startsWith('auth/steam/')||route.startsWith('steam/'))return accountApi(req,res,route,catalog);
   if(route==='health'&&req.method==='GET')return send(res,200,{configured:!!(process.env.SUPABASE_URL&&process.env.SUPABASE_SERVICE_ROLE_KEY)});
-  if(route==='games'&&req.method==='GET')return send(res,200,await catalog());
+  if(['games','games/search','games/import'].includes(route)){
+    try{
+      if(route==='games'&&req.method==='GET')return send(res,200,await catalog());
+      if(route==='games/search'&&req.method==='GET')return send(res,200,await searchSteam(requestUrl.searchParams.get('q')));
+      if(route==='games/import'&&req.method==='POST'){
+        if(req.headers['sec-fetch-site']==='cross-site'||(req.headers.origin&&new URL(req.headers.origin).host!==req.headers.host))return send(res,403,{error:'Origine non autorisée.'});
+        let b;try{b=typeof req.body==='string'?JSON.parse(req.body):req.body;}catch{return send(res,400,{error:'Requête invalide.'});}
+        return send(res,200,{game:await importSteam(b?.id)});
+      }
+      return send(res,405,{error:'Méthode non autorisée.'});
+    }catch(e){console.error('Game library request failed',e.name);return send(res,e.status||502,{error:e.status?e.message:'La bibliothèque est momentanément indisponible.'});}
+  }
   if(route==='refresh')return send(res,405,{error:'Les données Steam sont actualisées par le script de maintenance du catalogue.'});
   if(route!=='room')return send(res,404,{error:'Route inconnue.'});
   if(req.method!=='POST'){res.setHeader('Allow','POST');return send(res,405,{error:'Méthode non autorisée.'});}
@@ -31,7 +40,7 @@ export default async function handler(req,res){
   if(['create','join'].includes(b.action)&&(!name||name.length>30||/[\u0000-\u001f\u007f]/.test(name)))return send(res,400,{error:'Indiquez un prénom entre 1 et 30 caractères.'});
   if(b.action==='vote'){
     if(!['yes','super','no','clear'].includes(b.vote))return send(res,400,{error:'Vote invalide.'});
-    if(!(await catalog()).games.some(g=>g.id===String(b.game)))return send(res,400,{error:'Jeu inconnu.'});
+    try{if(!await hasGame(String(b.game)))return send(res,400,{error:'Jeu inconnu.'});}catch{return send(res,502,{error:'La bibliothèque est momentanément indisponible.'});}
   }
   if(!process.env.SUPABASE_URL||!process.env.SUPABASE_SERVICE_ROLE_KEY)return send(res,503,{error:'Le salon sera disponible une fois Supabase configuré.',code:'NOT_CONFIGURED'});
   try{

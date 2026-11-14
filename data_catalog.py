@@ -51,9 +51,15 @@ ONLINE_GAMES = [
     game(2709570,'Supermarket Together','Simulation',(1,16),['online'],(20,60),'Montez votre supermarché entre amis. Remplissez les rayons, encaissez les clients et améliorez le magasin en répartissant les tâches.', 'Jeu de base gratuit. Jusqu’à 16 joueurs en ligne ; certains contenus supplémentaires peuvent être payants.',added=True),
     game(1623730,'Palworld','Survie',(1,32),['online'],(45,120),'Explorez un monde peuplé de Pals, construisez votre base et partez affronter ses dangers. Organisez la production et les expéditions en groupe.', 'À 5 : serveur dédié ou communautaire obligatoire (jusqu’à 32). La coop hébergée directement dans une sauvegarde est limitée à 4.',added=True),
 ]
-GAMES = ONLINE_GAMES + GAMES
+GAMES = [game('minecraft','Minecraft : Java & Bedrock Edition','Bac à sable',(1,11),['online'],(30,120),'Créez votre monde à cinq : construisez une base, explorez les grottes, cultivez et partez affronter les créatures. Jouez en survie ou donnez libre cours à vos idées en créatif.', 'À 5 sur PC : utilisez un serveur proposant au moins 5 places, un Realm Java ou Realms Plus pour Bedrock. L’abonnement éventuel est payé par l’hôte, en plus du jeu. Tous doivent choisir la même édition : Java et Bedrock ne se rejoignent pas nativement. La capacité indiquée correspond au Realm Java (hôte + 10).', added=True, genres=['Bac à sable','Construction','Survie'],distribution='Minecraft.net', evidence='https://www.minecraft.net/en-us/realms')] + ONLINE_GAMES + GAMES
 for g in GAMES:
     if g.pop('added', False): g['original'] = False
     if g['id']=='league-of-legends': g['source']='https://www.leagueoflegends.com/fr-fr/'
     if g['id']=='valorant': g['source']='https://playvalorant.com/fr-fr/'
     if g['id']=='730': g['aliases']=['cs','cs2','counter strike']
+    if g['id']=='minecraft':
+        g['source']='https://www.minecraft.net/fr-fr/about-minecraft'
+        g['image']=g['poster']='/assets/minecraft-poster.png'
+        g['mediaLabel']='ILLUSTRATION OFFICIELLE · MINECRAFT'
+    if g['id'] in ('892970','1621690','1203620','1326470','105600','1623730'):
+        g['genres']=[g['genre'],'Construction','Bac à sable']

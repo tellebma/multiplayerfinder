@@ -2,7 +2,7 @@
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 const DEFAULTS = { players:5, mode:'all', budget:60, duration:0, genres:[], mods:false, narrative:false, strict:true, available:true, personalized:true };
-const GENRES = ['Puzzle','Party game','Survie','Horreur','Action','Aventure','Cuisine','Stratégie','Sport','Simulation','Déduction','Narratif','FPS','MOBA','Hero shooter'];
+const GENRES = ['Puzzle','Party game','Survie','Bac à sable','Construction','Horreur','Action','Aventure','Cuisine','Stratégie','Sport','Simulation','Déduction','Narratif','FPS','MOBA','Hero shooter','RPG','Course'];
 function readState() { try { const s=JSON.parse(localStorage.getItem('jvfinder-v1'));return {filters:{...DEFAULTS,...s?.filters}, decisions:s?.decisions||{}, history:s?.history||[]}; } catch { return {filters:{...DEFAULTS,genres:[]},decisions:{},history:[]}; } }
 let steamAccount=null,accountReady=Promise.resolve();
 let stateStorageKey='jvfinder-v1', voteSync=null, groupMatchIds=[], groupActive=false, groupMemberCount=0;
@@ -30,7 +30,7 @@ function toast(message){clearTimeout(toastTimer);$('#toast').textContent=message
 function capacity(g){return g.mod&&state.filters.mods?g.modMax:g.maxPlayers;}
 function fitsGroup(g){const f=state.filters;return !g.uncertain&&g.minPlayers!=null&&g.minPlayers<=f.players&&((capacity(g)!=null&&capacity(g)>=f.players)||g.capacityVerified);}
 function matchesSearch(g){return !search||[g.name,...(g.aliases||[])].some(n=>n.toLocaleLowerCase('fr').includes(search.toLocaleLowerCase('fr')));}
-function suitable(g){const f=state.filters;if(f.strict&&!fitsGroup(g))return false;if(f.available&&(g.unreleased||g.unavailable))return false;if(!f.narrative&&g.kind==='Vote / relais')return false;if(f.mode!=='all'&&!g.modes.includes(f.mode))return false;if(f.budget<60&&(g.price==null||g.price>f.budget))return false;if(f.duration&&(!g.minutes||g.minutes[0]>f.duration))return false;if(f.genres.length&&!f.genres.includes(g.genre))return false;return matchesSearch(g);}
+function suitable(g){const f=state.filters;if(f.strict&&!fitsGroup(g))return false;if(f.available&&(g.unreleased||g.unavailable))return false;if(!f.narrative&&g.kind==='Vote / relais')return false;if(f.mode!=='all'&&!g.modes.includes(f.mode))return false;if(f.budget<60&&(g.price==null||g.price>f.budget))return false;if(f.duration&&(!g.minutes||g.minutes[0]>f.duration))return false;if(f.genres.length&&![g.genre,...(g.genres||[])].some(genre=>f.genres.includes(genre)))return false;return matchesSearch(g);}
 function filtered(){let list=games.filter(g=>view==='matches'?groupMatchIds.includes(g.id):view==='saved'?positiveVote(state.decisions[g.id])&&matchesSearch(g):suitable(g));if(view==='discover')list=list.filter(g=>!state.decisions[g.id]);return view==='discover'&&state.filters.personalized?JVRecommendations.rank(list,games,recommendationVotes(),order):list.sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id));}
 function playerText(g){if(g.minPlayers==null)return 'À confirmer';return `${g.minPlayers}–${capacity(g)??'+'} joueurs`;}
 function modeText(g){return g.modes.map(m=>m==='online'?'En ligne':'En local').join(' + ')||'À confirmer';}
