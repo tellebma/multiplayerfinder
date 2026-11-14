@@ -28,12 +28,15 @@ alter table public.jvf_rooms enable row level security;
 alter table public.jvf_members enable row level security;
 alter table public.jvf_votes enable row level security;
 revoke all on table public.jvf_rooms,public.jvf_members,public.jvf_votes from anon,authenticated;
+grant usage on schema public to service_role;
+grant select,insert on public.jvf_rooms,public.jvf_members to service_role;
+grant select,insert,update,delete on public.jvf_votes to service_role;
 
 create or replace function public.jvf_command(
   p_action text,p_room uuid,p_member uuid,p_token_hash text,
   p_name text default '',p_game text default null,p_vote text default null
 ) returns jsonb
-language plpgsql security definer set search_path = ''
+language plpgsql security invoker set search_path = ''
 as $$
 declare
   v_room public.jvf_rooms%rowtype;

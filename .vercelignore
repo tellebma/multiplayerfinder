@@ -1,0 +1,6 @@
+.env*
+.git/
+.local/
+supabase/.temp/
+__pycache__/
+test-results/
