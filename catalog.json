@@ -1,0 +1,1432 @@
+{
+  "games": [
+    {
+      "id": "3241660",
+      "appid": 3241660,
+      "name": "R.E.P.O.",
+      "genre": "Horreur",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        20,
+        40
+      ],
+      "description": "Entrez ensemble dans des lieux hantés et rapportez des objets précieux sans les casser. Entre physique capricieuse, monstres et chat de proximité, le moindre déménagement peut tourner au fou rire.",
+      "note": "À 5, chacun a un rôle : repérer, porter… ou paniquer.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/3241660/",
+      "price": 9.49,
+      "priceInitial": 9.49,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/3241660-image.jpg",
+      "poster": "/assets/3241660-poster.jpg",
+      "movies": [
+        {
+          "id": 257482520,
+          "name": "Sunstone Update Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257482520/dc5b62a0a70918fdd661c8d948f2858378abd5cf/movie_600x337.jpg?t=1793278961",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3241660/524147145/e327ae080f1f4d19bac40fccf79b876ae3ba29a2/1793192328/dash_av1.mpd?t=1793278961",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3241660/524147145/e327ae080f1f4d19bac40fccf79b876ae3ba29a2/1793192328/dash_h264.mpd?t=1793278961",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3241660/524147145/e327ae080f1f4d19bac40fccf79b876ae3ba29a2/1793192328/hls_264_master.m3u8?t=1793278961",
+          "highlight": true
+        },
+        {
+          "id": 257332308,
+          "name": "Cosmetic Update Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257332308/54f1e35aa6e9835c69cea76984abfd208bf97cbd/movie_600x337.jpg?t=1778158881",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3241660/2104035143/53f52907e101a89fdc3eab98da02dc5ab07ea3c9/1778069013/dash_av1.mpd?t=1778158881",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3241660/2104035143/53f52907e101a89fdc3eab98da02dc5ab07ea3c9/1778069013/dash_h264.mpd?t=1778158881",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3241660/2104035143/53f52907e101a89fdc3eab98da02dc5ab07ea3c9/1778069013/hls_264_master.m3u8?t=1778158881",
+          "highlight": true
+        },
+        {
+          "id": 257224650,
+          "name": "Monster Update Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257224650/e6a9cdc0bf72aef5e7a78678c98bf0c533a1a4b2/movie_600x337.jpg?t=1761830780",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3241660/1884287699/bbab6854a8bc66274a77234cd49bf83f2d68076d/1761829575/dash_av1.mpd?t=1761830780",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3241660/1884287699/bbab6854a8bc66274a77234cd49bf83f2d68076d/1761829575/dash_h264.mpd?t=1761830780",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3241660/1884287699/bbab6854a8bc66274a77234cd49bf83f2d68076d/1761829575/hls_264_master.m3u8?t=1761830780",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:01.255824+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "26 févr. 2025"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "2644470",
+      "appid": 2644470,
+      "name": "PICO PARK 2",
+      "genre": "Puzzle",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        10,
+        30
+      ],
+      "description": "Cinq petits chats, une clé et beaucoup trop de façons de tomber. Empilez-vous et synchronisez vos mouvements pour résoudre des niveaux qui mettent votre coordination à l’épreuve.",
+      "note": "",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/2644470/",
+      "price": 5.24,
+      "priceInitial": 7.49,
+      "discount": 30,
+      "free": false,
+      "image": "/assets/2644470-image.jpg",
+      "poster": "/assets/2644470-poster.jpg",
+      "movies": [
+        {
+          "id": 257030041,
+          "name": "ANNOUNCE_TRAILER",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257030041/movie.293x165.jpg?t=1724771026",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2644470/711991/40fd2040d72a8b22eac325edc7beb3d41e27d737/1750817856/dash_av1.mpd?t=1724771026",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2644470/711991/40fd2040d72a8b22eac325edc7beb3d41e27d737/1750817856/dash_h264.mpd?t=1724771026",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2644470/711991/40fd2040d72a8b22eac325edc7beb3d41e27d737/1750817856/hls_264_master.m3u8?t=1724771026",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:01.255290+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "12 sept. 2024"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      }
+    },
+    {
+      "id": "880940",
+      "appid": 880940,
+      "name": "Pummel Party",
+      "genre": "Party game",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        45,
+        90
+      ],
+      "description": "Un plateau, des objets absurdes et des mini-jeux pour régler vos comptes entre amis. Alternez coups bas et épreuves rapides : il ne restera qu’un vainqueur.",
+      "note": "Le mode mini-jeux permet des sessions plus courtes.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://store.steampowered.com/app/880940/",
+      "price": 14.79,
+      "priceInitial": 14.79,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/880940-image.jpg",
+      "poster": "/assets/880940-poster.jpg",
+      "movies": [
+        {
+          "id": 256729701,
+          "name": "Pummel Party Release Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256729701/movie.293x165.jpg?t=1537457471",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/880940/185987/3d4bd2d5c2486472caa191ba4156a8040818b9e3/1750592834/dash_av1.mpd?t=1537457471",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/880940/185987/3d4bd2d5c2486472caa191ba4156a8040818b9e3/1750592834/dash_h264.mpd?t=1537457471",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/880940/185987/3d4bd2d5c2486472caa191ba4156a8040818b9e3/1750592834/hls_264_master.m3u8?t=1537457471",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:01.214408+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "20 sept. 2018"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "427410",
+      "appid": 427410,
+      "name": "Abiotic Factor",
+      "genre": "Survie",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        60,
+        120
+      ],
+      "description": "Transformez un laboratoire souterrain en refuge. Fabriquez des outils avec les moyens du bord, explorez des secteurs inquiétants et survivez ensemble aux expériences qui ont mal tourné.",
+      "note": "Une aventure suivie : prévoyez plusieurs soirées.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/427410/",
+      "price": 33.99,
+      "priceInitial": 33.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/427410-image.jpg",
+      "poster": "/assets/427410-poster.jpg",
+      "movies": [
+        {
+          "id": 257172169,
+          "name": "Abiotic Factor - Cold Fusion | 1.0 Launch Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257172169/0869094435a3118b8015fddcf5cac21ee78b2f33/movie_600x337.jpg?t=1753203386",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/427410/224664536/1f7f922a0395aba39ca5e1a5442f1da32ca93726/1753158448/dash_av1.mpd?t=1753203386",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/427410/224664536/1f7f922a0395aba39ca5e1a5442f1da32ca93726/1753158448/dash_h264.mpd?t=1753203386",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/427410/224664536/1f7f922a0395aba39ca5e1a5442f1da32ca93726/1753158448/hls_264_master.m3u8?t=1753203386",
+          "highlight": true
+        },
+        {
+          "id": 257331085,
+          "name": "Cosmic Companions",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257331085/97ed98b405c9dffdff826558c152dd512152b401/movie_600x337.jpg?t=1777914033",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/427410/1708069148/f4487052be58c80536fcd8a87b2efb7d371b3574/1777875543/dash_av1.mpd?t=1777914033",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/427410/1708069148/f4487052be58c80536fcd8a87b2efb7d371b3574/1777875543/dash_h264.mpd?t=1777914033",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/427410/1708069148/f4487052be58c80536fcd8a87b2efb7d371b3574/1777875543/hls_264_master.m3u8?t=1777914033",
+          "highlight": true
+        },
+        {
+          "id": 257250246,
+          "name": "Holiday Cryosphere",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257250246/2926ada99614c5d666f76596dc692036dabf11e8/movie_600x337.jpg?t=1774307769",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/427410/1713168287/f51eefbe7d0dbdc81230b2211561025e434b5efe/1765822174/dash_av1.mpd?t=1774307769",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/427410/1713168287/f51eefbe7d0dbdc81230b2211561025e434b5efe/1765822174/dash_h264.mpd?t=1774307769",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/427410/1713168287/f51eefbe7d0dbdc81230b2211561025e434b5efe/1765822174/hls_264_master.m3u8?t=1774307769",
+          "highlight": false
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:01.247582+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "22 juil. 2025"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "1509960",
+      "appid": 1509960,
+      "name": "PICO PARK",
+      "genre": "Puzzle",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        10,
+        30
+      ],
+      "description": "Ouvrez la porte ensemble en récupérant la clé de chaque niveau. Des règles toutes simples, des personnages qui se gênent et une coopération qui demande un vrai sens du timing.",
+      "note": "",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/1509960/",
+      "price": 2.79,
+      "priceInitial": 3.99,
+      "discount": 30,
+      "free": false,
+      "image": "/assets/1509960-image.jpg",
+      "poster": "/assets/1509960-poster.jpg",
+      "movies": [
+        {
+          "id": 256829932,
+          "name": "trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256829932/movie.293x165.jpg?t=1618749324",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1509960/360992/fc3d578e78de773bdd716edb28cd09aa5fd07795/1750696987/dash_av1.mpd?t=1618749324",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1509960/360992/fc3d578e78de773bdd716edb28cd09aa5fd07795/1750696987/dash_h264.mpd?t=1618749324",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1509960/360992/fc3d578e78de773bdd716edb28cd09aa5fd07795/1750696987/hls_264_master.m3u8?t=1618749324",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:01.249177+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "7 mai 2021"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "3670180",
+      "appid": 3670180,
+      "name": "Baby Kings",
+      "genre": "Puzzle",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        15,
+        40
+      ],
+      "description": "Des petits rois traversent un donjon rempli de pièges. Avancez en équipe, évitez les dangers et ramenez tout le monde jusqu’à la sortie.",
+      "note": "Le jeu complet est sorti le 13 août 2026 ; la liste initiale mentionnait seulement une démo.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/3670180/",
+      "price": 6.29,
+      "priceInitial": 6.29,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/3670180-image.jpg",
+      "poster": "/assets/3670180-poster.jpg",
+      "movies": [
+        {
+          "id": 257132903,
+          "name": "Baby Kings - Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257132903/2bdfeaf54a6f8de04805fdc51d74eff7c0e3a043/movie_600x337.jpg?t=1789284762",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3670180/316890078/7ad6f26f97fe1818c1ab7d42c59accc54003ad26/1789284227/dash_av1.mpd?t=1789284762",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3670180/316890078/7ad6f26f97fe1818c1ab7d42c59accc54003ad26/1789284227/dash_h264.mpd?t=1789284762",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3670180/316890078/7ad6f26f97fe1818c1ab7d42c59accc54003ad26/1789284227/hls_264_master.m3u8?t=1789284762",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:01.805959+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "13 aout 2026"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "892970",
+      "appid": 892970,
+      "name": "Valheim",
+      "genre": "Survie",
+      "minPlayers": 1,
+      "maxPlayers": 10,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        60,
+        120
+      ],
+      "description": "Construisez votre village viking, préparez vos expéditions et partez affronter les dangers d’un monde sauvage. Un bon choix pour un groupe qui aime construire autant qu’explorer.",
+      "note": "Monde persistant ; un hôte ou un serveur doit rester disponible.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/892970/",
+      "price": 26.99,
+      "priceInitial": 29.99,
+      "discount": 10,
+      "free": false,
+      "image": "/assets/892970-image.jpg",
+      "poster": "/assets/892970-poster.jpg",
+      "movies": [
+        {
+          "id": 257420513,
+          "name": "1.0 Out Now",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257420513/3f5dcfbddfe4cca65abe94a03a46b3b5546c46ab/movie_600x337.jpg?t=1788958575",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/1773403435/2417a8f159c3b08912ee0c08e6a78d70452a083f/1788934690/dash_av1.mpd?t=1788958575",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/1773403435/2417a8f159c3b08912ee0c08e6a78d70452a083f/1788934690/dash_h264.mpd?t=1788958575",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/1773403435/2417a8f159c3b08912ee0c08e6a78d70452a083f/1788934690/hls_264_master.m3u8?t=1788958575",
+          "highlight": true
+        },
+        {
+          "id": 257419620,
+          "name": "Deep North Animated Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257419620/cf3dd9631b1181dd1dcf3416f0961ecf0c1bf7a5/movie_600x337.jpg?t=1788957576",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/1466264581/4dbfd08fcffaaccab3f9477f8f55df0a98ab29ef/1788851619/dash_av1.mpd?t=1788957576",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/1466264581/4dbfd08fcffaaccab3f9477f8f55df0a98ab29ef/1788851619/dash_h264.mpd?t=1788957576",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/1466264581/4dbfd08fcffaaccab3f9477f8f55df0a98ab29ef/1788851619/hls_264_master.m3u8?t=1788957576",
+          "highlight": true
+        },
+        {
+          "id": 257363622,
+          "name": "1.0 Release Date Reveal Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257363622/e979dd1440c9a792e9439d71c4982874abf19a0e/movie_600x337.jpg?t=1782130908",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/892970/1497098081/82852b46712774fa05d84fbaf0fb0ab9679a07f0/1782129560/dash_av1.mpd?t=1782130908",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/1497098081/82852b46712774fa05d84fbaf0fb0ab9679a07f0/1782129560/dash_h264.mpd?t=1782130908",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/892970/1497098081/82852b46712774fa05d84fbaf0fb0ab9679a07f0/1782129560/hls_264_master.m3u8?t=1782130908",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:01.844127+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "9 sept. 2026"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "1621690",
+      "appid": 1621690,
+      "name": "Core Keeper",
+      "genre": "Survie",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        45,
+        120
+      ],
+      "description": "Creusez une immense caverne, équipez votre base et partez découvrir ses secrets. Exploration, construction et combats se partagent naturellement entre les membres du groupe.",
+      "note": "",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/1621690/",
+      "price": 19.99,
+      "priceInitial": 19.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/1621690-image.jpg",
+      "poster": "/assets/1621690-poster.jpg",
+      "movies": [
+        {
+          "id": 257428623,
+          "name": "Riders of the Underground",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257428623/428fb6a6f6219dad63810c8109bcb75529814220/movie_600x337.jpg?t=1789981169",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1621690/419992208/922464bc06b3e0d01eb490d2d6a592cda18a7a31/1789749445/dash_av1.mpd?t=1789981169",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1621690/419992208/922464bc06b3e0d01eb490d2d6a592cda18a7a31/1789749445/dash_h264.mpd?t=1789981169",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1621690/419992208/922464bc06b3e0d01eb490d2d6a592cda18a7a31/1789749445/hls_264_master.m3u8?t=1789981169",
+          "highlight": true
+        },
+        {
+          "id": 257294260,
+          "name": "Void and Voltage - Out Now",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257294260/d9e2a3dc8a4a3636806cef1702f4944e7cc890c9/movie_600x337.jpg?t=1772014474",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1621690/2040870540/530dbddb1393f13743b7cb62575edb0e1ccab748/1772013931/dash_av1.mpd?t=1772014474",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1621690/2040870540/530dbddb1393f13743b7cb62575edb0e1ccab748/1772013931/dash_h264.mpd?t=1772014474",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1621690/2040870540/530dbddb1393f13743b7cb62575edb0e1ccab748/1772013931/hls_264_master.m3u8?t=1772014474",
+          "highlight": true
+        },
+        {
+          "id": 257192050,
+          "name": "Bags and Blasts ",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257192050/578598a18bd3567b26d4a89fbbe9ab37138af972/movie_600x337.jpg?t=1756801461",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1621690/1076238022/cd92107690fbe4d9c76ca7ab601e88b77f3f3b41/1756799789/dash_av1.mpd?t=1756801461",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1621690/1076238022/cd92107690fbe4d9c76ca7ab601e88b77f3f3b41/1756799789/dash_h264.mpd?t=1756801461",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1621690/1076238022/cd92107690fbe4d9c76ca7ab601e88b77f3f3b41/1756799789/hls_264_master.m3u8?t=1756801461",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:01.859656+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "27 aout 2024"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      }
+    },
+    {
+      "id": "923130",
+      "appid": 923130,
+      "name": "Plunder Squad",
+      "genre": "Aventure",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "local"
+      ],
+      "minutes": [
+        20,
+        45
+      ],
+      "description": "Choisissez des héros aux pouvoirs complémentaires et cherchez des trésors. Chaque salle devient un petit problème collectif à résoudre.",
+      "note": "Coopération sur le même écran ; Remote Play Together est proposé par Steam.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/923130/",
+      "price": 0,
+      "priceInitial": null,
+      "discount": 0,
+      "free": true,
+      "image": "/assets/923130-image.jpg",
+      "poster": "/assets/923130-poster.jpg",
+      "movies": [],
+      "fetchedAt": "2026-11-14T14:51:01.870366+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "24 sept. 2018"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "945360",
+      "appid": 945360,
+      "name": "Among Us",
+      "genre": "Déduction",
+      "minPlayers": 4,
+      "maxPlayers": 15,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        10,
+        20
+      ],
+      "description": "Accomplissez les tâches du vaisseau pendant que des imposteurs sabotent la mission. Observez, accusez et essayez de convaincre vos amis.",
+      "note": "À 5, privilégiez un seul imposteur ; le réseau local nécessite un appareil par joueur.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://store.steampowered.com/app/945360/",
+      "price": 4.49,
+      "priceInitial": 4.49,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/945360-image.jpg",
+      "poster": "/assets/945360-poster.jpg",
+      "movies": [
+        {
+          "id": 257465104,
+          "name": "Influencer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257465104/1bb33f3baeb2760f7b742800413e0e58a33cfc84/movie_600x337.jpg?t=1792187807",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/945360/878850778/ab7f0e7a1086031364dfe3853326f1b1f445bf08/1792181339/dash_av1.mpd?t=1792187807",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/945360/878850778/ab7f0e7a1086031364dfe3853326f1b1f445bf08/1792181339/dash_h264.mpd?t=1792187807",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/945360/878850778/ab7f0e7a1086031364dfe3853326f1b1f445bf08/1792181339/hls_264_master.m3u8?t=1792187807",
+          "highlight": true
+        },
+        {
+          "id": 257402620,
+          "name": "Judge",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257402620/43773749e121909407d9d8d9b4ae20572b2fe957/movie_600x337.jpg?t=1787088488",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/945360/1738371960/59cfa455c18f2b3cd1a474d6c64ea0c4dbb2288f/1787086715/dash_av1.mpd?t=1787088488",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/945360/1738371960/59cfa455c18f2b3cd1a474d6c64ea0c4dbb2288f/1787086715/dash_h264.mpd?t=1787088488",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/945360/1738371960/59cfa455c18f2b3cd1a474d6c64ea0c4dbb2288f/1787086715/hls_264_master.m3u8?t=1787088488",
+          "highlight": true
+        },
+        {
+          "id": 257195243,
+          "name": "Detective and Viper",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257195243/2cb7c83c4a037599c78d5fef912da987dde4aedc/movie_600x337.jpg?t=1757444890",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/945360/1500936740/ab4e8e0e92771daaa6e83ee679314df2ee84d72d/1757443796/dash_av1.mpd?t=1757444890",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/945360/1500936740/ab4e8e0e92771daaa6e83ee679314df2ee84d72d/1757443796/dash_h264.mpd?t=1757444890",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/945360/1500936740/ab4e8e0e92771daaa6e83ee679314df2ee84d72d/1757443796/hls_264_master.m3u8?t=1757444890",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:01.853147+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "16 nov. 2018"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "477160",
+      "appid": 477160,
+      "name": "Human: Fall Flat",
+      "genre": "Puzzle",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        20,
+        60
+      ],
+      "description": "Attrapez vos amis, actionnez des mécanismes et traversez des décors improbables avec des personnages mous. Une aventure où les solutions bancales font partie du plaisir.",
+      "note": "Sur PC : jusqu’à 8 en ligne, mais seulement 2 sur un même écran.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/477160/",
+      "price": 19.99,
+      "priceInitial": 19.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/477160-image.jpg",
+      "poster": "/assets/477160-poster.jpg",
+      "movies": [
+        {
+          "id": 257421781,
+          "name": "Jail Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257421781/4ecc903425fcc4b6686bdc978a9c901484ead4da/movie_600x337.jpg?t=1789390611",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/477160/318607826/26280147a63f888fa5ef2b3622c3f7a4c1cba8fb/1789037952/dash_av1.mpd?t=1789390611",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/477160/318607826/26280147a63f888fa5ef2b3622c3f7a4c1cba8fb/1789037952/dash_h264.mpd?t=1789390611",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/477160/318607826/26280147a63f888fa5ef2b3622c3f7a4c1cba8fb/1789037952/hls_264_master.m3u8?t=1789390611",
+          "highlight": true
+        },
+        {
+          "id": 257382338,
+          "name": "10th Anniversary Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257382338/4ef4150b0240b46a5fd5461d3ef15303cd933e37/movie_600x337.jpg?t=1784725162",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/477160/1722076904/1aa9c1d8dd1309f6d35814e8f098c9d7d3be658c/1784724496/dash_av1.mpd?t=1784725162",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/477160/1722076904/1aa9c1d8dd1309f6d35814e8f098c9d7d3be658c/1784724496/dash_h264.mpd?t=1784725162",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/477160/1722076904/1aa9c1d8dd1309f6d35814e8f098c9d7d3be658c/1784724496/hls_264_master.m3u8?t=1784725162",
+          "highlight": true
+        },
+        {
+          "id": 257298228,
+          "name": "Viking Trailer - New level available now!",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257298228/ddb074b5280fed525a9ead54c2c47f69fe86e095/movie_600x337.jpg?t=1772719522",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/477160/1047236089/f415d6bc5bf94b2b7b3f97849d802a5d0880f751/1772711935/dash_av1.mpd?t=1772719522",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/477160/1047236089/f415d6bc5bf94b2b7b3f97849d802a5d0880f751/1772711935/dash_h264.mpd?t=1772719522",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/477160/1047236089/f415d6bc5bf94b2b7b3f97849d802a5d0880f751/1772711935/hls_264_master.m3u8?t=1772719522",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:02.380223+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "22 juil. 2016"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      }
+    },
+    {
+      "id": "431240",
+      "appid": 431240,
+      "name": "Golf With Your Friends",
+      "genre": "Sport",
+      "minPlayers": 1,
+      "maxPlayers": 12,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        20,
+        45
+      ],
+      "description": "Retrouvez-vous sur des parcours de minigolf fantaisistes. Réglez vos coups, jouez avec les obstacles et activez les collisions pour ajouter un peu de chaos.",
+      "note": "À 5, choisissez le multijoueur en ligne ; le mode local est à tour de rôle.",
+      "kind": "Compétitif",
+      "original": false,
+      "source": "https://store.steampowered.com/app/431240/",
+      "price": 5.99,
+      "priceInitial": 23.99,
+      "discount": 75,
+      "free": false,
+      "image": "/assets/431240-image.jpg",
+      "poster": "/assets/431240-poster.jpg",
+      "movies": [
+        {
+          "id": 257052332,
+          "name": "Golf With Your Friends - Olympus Odyssey Launch Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257052332/movie.293x165.jpg?t=1725527162",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/431240/750934/c844e4324a3ad8f7a5c7d0a26ac9e4dee828c0ef/1750530208/dash_av1.mpd?t=1725527162",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/431240/750934/c844e4324a3ad8f7a5c7d0a26ac9e4dee828c0ef/1750530208/dash_h264.mpd?t=1725527162",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/431240/750934/c844e4324a3ad8f7a5c7d0a26ac9e4dee828c0ef/1750530208/hls_264_master.m3u8?t=1725527162",
+          "highlight": true
+        },
+        {
+          "id": 257016640,
+          "name": "Golf With Your Friends - Speed Golf Launch Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257016640/movie.293x165.jpg?t=1713430702",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/431240/688669/725e20656af836477dee97cf35c2f440bda8c152/1750530207/dash_av1.mpd?t=1713430702",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/431240/688669/725e20656af836477dee97cf35c2f440bda8c152/1750530207/dash_h264.mpd?t=1713430702",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/431240/688669/725e20656af836477dee97cf35c2f440bda8c152/1750530207/hls_264_master.m3u8?t=1713430702",
+          "highlight": false
+        },
+        {
+          "id": 256785877,
+          "name": "Launch Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256785877/movie.293x165.jpg?t=1589898300",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/431240/286788/801b4250c06e2148b5293e75d0a97457fe3171b3/1750530176/dash_av1.mpd?t=1589898300",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/431240/286788/801b4250c06e2148b5293e75d0a97457fe3171b3/1750530176/dash_h264.mpd?t=1589898300",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/431240/286788/801b4250c06e2148b5293e75d0a97457fe3171b3/1750530176/hls_264_master.m3u8?t=1589898300",
+          "highlight": false
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:02.379223+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "19 mai 2020"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "602960",
+      "appid": 602960,
+      "name": "Barotrauma",
+      "genre": "Simulation",
+      "minPlayers": 1,
+      "maxPlayers": 16,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        45,
+        90
+      ],
+      "description": "Pilotez un sous-marin dans les profondeurs d’Europe. Répartissez les postes, réparez les fuites et essayez de faire confiance à votre équipage.",
+      "note": "Prise en main plus exigeante ; attribuez un métier à chacun.",
+      "kind": "Coopération",
+      "original": false,
+      "source": "https://store.steampowered.com/app/602960/",
+      "price": 34.99,
+      "priceInitial": 34.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/602960-image.jpg",
+      "poster": "/assets/602960-poster.jpg",
+      "movies": [
+        {
+          "id": 257320283,
+          "name": "Expansion_Gameplaytrailer_EN",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257320283/473b7c719208ebc8bec1bd08079eebdc3ae377fe/movie_600x337.jpg?t=1776271909",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/602960/122416453/2cfdc855c4253c784c00a96ecad737a80f5d4790/1776271293/dash_av1.mpd?t=1776271909",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/602960/122416453/2cfdc855c4253c784c00a96ecad737a80f5d4790/1776271293/dash_h264.mpd?t=1776271909",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/602960/122416453/2cfdc855c4253c784c00a96ecad737a80f5d4790/1776271293/hls_264_master.m3u8?t=1776271909",
+          "highlight": true
+        },
+        {
+          "id": 257067392,
+          "name": "UntoTheBreach_EN",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257067392/3e271601bb7cbd532b9dfb7046c562e522e6f696/movie_600x337.jpg?t=1729607776",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/602960/775513/4b1efbeb3cacfb0c9ba5ac97e7f14d63df7079da/1750561007/dash_av1.mpd?t=1729607776",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/602960/775513/4b1efbeb3cacfb0c9ba5ac97e7f14d63df7079da/1750561007/dash_h264.mpd?t=1729607776",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/602960/775513/4b1efbeb3cacfb0c9ba5ac97e7f14d63df7079da/1750561007/hls_264_master.m3u8?t=1729607776",
+          "highlight": true
+        },
+        {
+          "id": 256935385,
+          "name": "ReleaseTrailer_EN",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256935385/movie.293x165.jpg?t=1678723260",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/602960/547622/efdd19a5fda14b1db9a22924e168b32692aece93/1750560980/dash_av1.mpd?t=1678723260",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/602960/547622/efdd19a5fda14b1db9a22924e168b32692aece93/1750560980/dash_h264.mpd?t=1678723260",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/602960/547622/efdd19a5fda14b1db9a22924e168b32692aece93/1750560980/hls_264_master.m3u8?t=1678723260",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:02.378223+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "13 mars 2023"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "812380",
+      "appid": 812380,
+      "name": "Flock of Dogs",
+      "genre": "Aventure",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        30,
+        60
+      ],
+      "description": "Voyagez avec votre meute et une baleine volante. Explorez, récupérez des ressources et défendez votre étrange équipage dans une aventure coopérative colorée.",
+      "note": "",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/812380/",
+      "price": 9.75,
+      "priceInitial": 9.75,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/812380-image.jpg",
+      "poster": "/assets/812380-poster.jpg",
+      "movies": [
+        {
+          "id": 257086293,
+          "name": "Gameplay With Poem (Captioned)",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257086293/747ecae27e5626e720bb287c99c9e04327989e7e/movie_600x337.jpg?t=1736484104",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/812380/807444/efd7bc4059008dafb4668da1968568695a082145/1751147735/dash_av1.mpd?t=1736484104",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/812380/807444/efd7bc4059008dafb4668da1968568695a082145/1751147735/dash_h264.mpd?t=1736484104",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/812380/807444/efd7bc4059008dafb4668da1968568695a082145/1751147735/hls_264_master.m3u8?t=1736484104",
+          "highlight": true
+        },
+        {
+          "id": 256916355,
+          "name": "FOD Minigame Park Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256916355/movie.293x165.jpg?t=1736024684",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/812380/513995/089185f162f6c024bc467bb8628f0158325c850b/1751147732/dash_av1.mpd?t=1736024684",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/812380/513995/089185f162f6c024bc467bb8628f0158325c850b/1751147732/dash_h264.mpd?t=1736024684",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/812380/513995/089185f162f6c024bc467bb8628f0158325c850b/1751147732/hls_264_master.m3u8?t=1736024684",
+          "highlight": true
+        },
+        {
+          "id": 257086419,
+          "name": "FOD Gameplay Trailer - Tuesday Afternoon Poem",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257086419/747ecae27e5626e720bb287c99c9e04327989e7e/movie_600x337.jpg?t=1736024689",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/812380/807681/9119fb8a308ef5d876a9c1b74ea010bf03519c7b/1751147736/dash_av1.mpd?t=1736024689",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/812380/807681/9119fb8a308ef5d876a9c1b74ea010bf03519c7b/1751147736/dash_h264.mpd?t=1736024689",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/812380/807681/9119fb8a308ef5d876a9c1b74ea010bf03519c7b/1751147736/hls_264_master.m3u8?t=1736024689",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:02.418943+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "17 déc. 2024"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "3489640",
+      "appid": 3489640,
+      "name": "Hellcrackers",
+      "genre": "Action",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "local"
+      ],
+      "minutes": [
+        15,
+        30
+      ],
+      "description": "Survivez à des vagues de monstres, récoltez des pièces et achetez des améliorations. Acceptez des malédictions pour gagner plus et compliquer la prochaine vague.",
+      "note": "Jeu local ; Remote Play Together est disponible. La description annonce « jusqu’à 8 amis » : capacité retenue conservatrice de 8.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/3489640/",
+      "price": 2.99,
+      "priceInitial": 2.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/3489640-image.jpg",
+      "poster": "/assets/3489640-poster.jpg",
+      "movies": [
+        {
+          "id": 257094988,
+          "name": "Gameplay trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257094988/1e48cedc5644dc6bae631bb80dc771712b4a5719/movie_600x337.jpg?t=1739148570",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3489640/823504/970c58dd0d6b9357d516eeca7d299eafdf52176e/1750855455/dash_av1.mpd?t=1739148570",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3489640/823504/970c58dd0d6b9357d516eeca7d299eafdf52176e/1750855455/dash_h264.mpd?t=1739148570",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3489640/823504/970c58dd0d6b9357d516eeca7d299eafdf52176e/1750855455/hls_264_master.m3u8?t=1739148570",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:02.749357+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "13 févr. 2025"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "3316390",
+      "appid": 3316390,
+      "name": "We Are Square",
+      "genre": "Puzzle",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "local"
+      ],
+      "minutes": [
+        10,
+        30
+      ],
+      "description": "Contrôlez ensemble un seul carré et essayez de le mener à destination. Un exercice de coordination minimaliste où chaque erreur risque de devenir une discussion.",
+      "note": "Manettes obligatoires. À 5+, prévoir une manette PlayStation ou générique : maximum 4 manettes Xbox. La démo contient le jeu complet.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/3316390/",
+      "price": 1.99,
+      "priceInitial": 1.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/3316390-image.jpg",
+      "poster": "/assets/3316390-poster.jpg",
+      "movies": [
+        {
+          "id": 257080078,
+          "name": "We Are Square Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257080078/9b9dc497f93f1eadf74f81471762a905b7abde35/movie_600x337.jpg?t=1733688492",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3316390/796861/dc1ee8d9d0751e4a56489fff5deaca33daa4bb1b/1750978366/dash_av1.mpd?t=1733688492",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3316390/796861/dc1ee8d9d0751e4a56489fff5deaca33daa4bb1b/1750978366/dash_h264.mpd?t=1733688492",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3316390/796861/dc1ee8d9d0751e4a56489fff5deaca33daa4bb1b/1750978366/hls_264_master.m3u8?t=1733688492",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:02.956626+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "20 déc. 2024"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "3404170",
+      "appid": 3404170,
+      "name": "Together We Play: Help Me Help You",
+      "genre": "Puzzle",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        15,
+        40
+      ],
+      "description": "Coordonnez votre groupe pour franchir des niveaux de plateforme et résoudre des énigmes. L’entraide et le placement des joueurs font toute la différence.",
+      "note": "Accès anticipé ; vérifier le contenu disponible sur Steam.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/3404170/",
+      "price": 20.49,
+      "priceInitial": 20.49,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/3404170-image.jpg",
+      "poster": "/assets/3404170-poster.jpg",
+      "movies": [
+        {
+          "id": 257091739,
+          "name": "Gameplay",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257091739/754d6306d6a7262acca09ad063d7dddf721e03c1/movie_600x337.jpg?t=1737681821",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3404170/817676/6b87324e5a3926ff7ca2b64d507c04f23eeada0e/1750847782/dash_av1.mpd?t=1737681821",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3404170/817676/6b87324e5a3926ff7ca2b64d507c04f23eeada0e/1750847782/dash_h264.mpd?t=1737681821",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3404170/817676/6b87324e5a3926ff7ca2b64d507c04f23eeada0e/1750847782/hls_264_master.m3u8?t=1737681821",
+          "highlight": false
+        },
+        {
+          "id": 257091740,
+          "name": "Character Customization",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257091740/8721e1366391375e61e4c1c465e0df876ba36b11/movie_600x337.jpg?t=1737681826",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3404170/817679/5c4a023abec0a8b07f6b02d15a7a35f663b7d280/1750847786/dash_av1.mpd?t=1737681826",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3404170/817679/5c4a023abec0a8b07f6b02d15a7a35f663b7d280/1750847786/dash_h264.mpd?t=1737681826",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3404170/817679/5c4a023abec0a8b07f6b02d15a7a35f663b7d280/1750847786/hls_264_master.m3u8?t=1737681826",
+          "highlight": false
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:03.038344+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "31 janv. 2025"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "716250",
+      "appid": 716250,
+      "name": "Eight Dragons",
+      "genre": "Action",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "local"
+      ],
+      "minutes": [
+        20,
+        45
+      ],
+      "description": "Parcourez les rues et affrontez les gangs en équipe dans un beat’em up rétro. Choisissez votre combattant et faites place nette.",
+      "note": "Multijoueur local sur PC ; Remote Play Together peut partager l’écran à distance.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/716250/",
+      "price": 7.79,
+      "priceInitial": 7.79,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/716250-image.jpg",
+      "poster": "/assets/716250-poster.jpg",
+      "movies": [
+        {
+          "id": 257145624,
+          "name": "New Animated Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257145624/b5a2d3ed017257906a368ea495196e45c15df3b8/movie_600x337.jpg?t=1748252106",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/716250/109357280/9bfd593906e70a1011a88743861325de6771aa18/1751135236/dash_av1.mpd?t=1748252106",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/716250/109357280/9bfd593906e70a1011a88743861325de6771aa18/1751135236/dash_h264.mpd?t=1748252106",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/716250/109357280/9bfd593906e70a1011a88743861325de6771aa18/1751135236/hls_264_master.m3u8?t=1748252106",
+          "highlight": true
+        },
+        {
+          "id": 256809705,
+          "name": "New Gameplay Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256809705/movie.293x165.jpg?t=1605543393",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/716250/326970/9485fdce3ddc137acd2ad249849df3d228d6b513/1751135234/dash_av1.mpd?t=1605543393",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/716250/326970/9485fdce3ddc137acd2ad249849df3d228d6b513/1751135234/dash_h264.mpd?t=1605543393",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/716250/326970/9485fdce3ddc137acd2ad249849df3d228d6b513/1751135234/hls_264_master.m3u8?t=1605543393",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:03.046520+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "13 nov. 2019"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      }
+    },
+    {
+      "id": "1890650",
+      "appid": 1890650,
+      "name": "Citywars Tower Defense",
+      "genre": "Stratégie",
+      "minPlayers": 1,
+      "maxPlayers": null,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        30,
+        60
+      ],
+      "description": "Construisez, récoltez et défendez votre ville contre des vagues d’ennemis dans un monde partagé avec les autres joueurs.",
+      "note": "Le développeur confirme un serveur de type MMO. Pas de maximum de groupe fixe publié.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/1890650/",
+      "capacityVerified": true,
+      "evidence": "https://steamcommunity.com/app/1890650/discussions/0/3270184240649352945/",
+      "price": 0,
+      "priceInitial": null,
+      "discount": 0,
+      "free": true,
+      "image": "/assets/1890650-image.jpg",
+      "poster": "/assets/1890650-poster.jpg",
+      "movies": [
+        {
+          "id": 256875098,
+          "name": "Trailer Citywars Tower Defense",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256875098/movie.293x165.jpg?t=1646313951",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1890650/442211/35ff48f49dcb7563e655156b861c139c23c96b2e/1751493659/dash_av1.mpd?t=1646313951",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1890650/442211/35ff48f49dcb7563e655156b861c139c23c96b2e/1751493659/dash_h264.mpd?t=1646313951",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1890650/442211/35ff48f49dcb7563e655156b861c139c23c96b2e/1751493659/hls_264_master.m3u8?t=1646313951",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:03.221540+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "3 mars 2022"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "1599600",
+      "appid": 1599600,
+      "name": "PlateUp!",
+      "genre": "Cuisine",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        30,
+        60
+      ],
+      "description": "Organisez votre restaurant, cuisinez et servez avant que la file d’attente déborde. Automatisez progressivement votre cuisine et tentez de prolonger votre série.",
+      "note": "À 5 : mod communautaire requis (par exemple PlateUp Players). Vérifiez sa compatibilité avec votre version ; 4 joueurs dans le jeu de base.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/1599600/",
+      "mod": true,
+      "modMax": 12,
+      "modSource": "https://steamcommunity.com/workshop/browse/?appid=1599600&searchtext=PlateUp+Players",
+      "price": 19.5,
+      "priceInitial": 19.5,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/1599600-image.jpg",
+      "poster": "/assets/1599600-poster.jpg",
+      "movies": [
+        {
+          "id": 256899319,
+          "name": "Launch Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256899319/movie.293x165.jpg?t=1659620731",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1599600/484890/dce6b069ede6b19aa823a43e88aeeb3d13408202/1750705040/dash_av1.mpd?t=1659620731",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1599600/484890/dce6b069ede6b19aa823a43e88aeeb3d13408202/1750705040/dash_h264.mpd?t=1659620731",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1599600/484890/dce6b069ede6b19aa823a43e88aeeb3d13408202/1750705040/hls_264_master.m3u8?t=1659620731",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:03.798830+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "4 aout 2022"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "1577120",
+      "appid": 1577120,
+      "name": "The Quarry",
+      "genre": "Narratif",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        60,
+        120
+      ],
+      "description": "Décidez du destin de moniteurs de colonie dans une histoire d’horreur interactive. Discutez des choix et découvrez ensemble les conséquences.",
+      "note": "Local : personnages joués en relais. En ligne : un hôte joue et les invités votent. Ce n’est pas une coop simultanée.",
+      "kind": "Vote / relais",
+      "original": true,
+      "source": "https://store.steampowered.com/app/1577120/",
+      "price": 59.99,
+      "priceInitial": 59.99,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/1577120-image.jpg",
+      "poster": "/assets/1577120-poster.jpg",
+      "movies": [
+        {
+          "id": 256893088,
+          "name": "The Quarry - Accolades - EN PEGI",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256893088/movie.293x165.jpg?t=1655914757",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1577120/474059/7e944a3792177e12ea8331d19a9396093baa0abb/1750703229/dash_av1.mpd?t=1655914757",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1577120/474059/7e944a3792177e12ea8331d19a9396093baa0abb/1750703229/dash_h264.mpd?t=1655914757",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1577120/474059/7e944a3792177e12ea8331d19a9396093baa0abb/1750703229/hls_264_master.m3u8?t=1655914757",
+          "highlight": true
+        },
+        {
+          "id": 256892984,
+          "name": "The Quarry - Pre-Order - EN PEGI",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256892984/movie.293x165.jpg?t=1655860354",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1577120/473858/09952919108227e2ae654da795d9fa4ce5714a82/1750705129/dash_av1.mpd?t=1655860354",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1577120/473858/09952919108227e2ae654da795d9fa4ce5714a82/1750705129/dash_h264.mpd?t=1655860354",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1577120/473858/09952919108227e2ae654da795d9fa4ce5714a82/1750705129/hls_264_master.m3u8?t=1655860354",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:04.329635+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "9 juin 2022"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "1361510",
+      "appid": 1361510,
+      "name": "TMNT: Shredder’s Revenge",
+      "genre": "Action",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": [
+        20,
+        45
+      ],
+      "description": "Retrouvez les Tortues Ninja dans un beat’em up arcade. Enchaînez les attaques, relevez vos équipiers et traversez New York dans une ambiance dessin animé.",
+      "note": "",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/1361510/",
+      "price": 9.99,
+      "priceInitial": 24.99,
+      "discount": 60,
+      "free": false,
+      "image": "/assets/1361510-image.jpg",
+      "poster": "/assets/1361510-poster.jpg",
+      "movies": [
+        {
+          "id": 256892266,
+          "name": "TMNT - Release Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256892266/movie.293x165.jpg?t=1655392446",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1361510/472634/e777520b8879195ca9e2e0e0718c2a38759e536b/1750677983/dash_av1.mpd?t=1655392446",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1361510/472634/e777520b8879195ca9e2e0e0718c2a38759e536b/1750677983/dash_h264.mpd?t=1655392446",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1361510/472634/e777520b8879195ca9e2e0e0718c2a38759e536b/1750677983/hls_264_master.m3u8?t=1655392446",
+          "highlight": true
+        },
+        {
+          "id": 256890902,
+          "name": "TMNT - Release Date Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256890902/movie.293x165.jpg?t=1655390456",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1361510/470551/f077b1178e33ebb73951a8d656e30654e55225d5/1750677978/dash_av1.mpd?t=1655390456",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1361510/470551/f077b1178e33ebb73951a8d656e30654e55225d5/1750677978/dash_h264.mpd?t=1655390456",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1361510/470551/f077b1178e33ebb73951a8d656e30654e55225d5/1750677978/hls_264_master.m3u8?t=1655390456",
+          "highlight": true
+        },
+        {
+          "id": 256873224,
+          "name": "TMNT - Splinter Reveal",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256873224/movie.293x165.jpg?t=1654816117",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1361510/438976/8b8ec4979fafee097fdd1e63ffd6e98251b874a9/1750677977/dash_av1.mpd?t=1654816117",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1361510/438976/8b8ec4979fafee097fdd1e63ffd6e98251b874a9/1750677977/dash_h264.mpd?t=1654816117",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1361510/438976/8b8ec4979fafee097fdd1e63ffd6e98251b874a9/1750677977/hls_264_master.m3u8?t=1654816117",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:04.277134+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "16 juin 2022"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+      }
+    },
+    {
+      "id": "2132260",
+      "appid": 2132260,
+      "name": "Eight Dragons 2",
+      "genre": "Action",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "modes": [
+        "online",
+        "local"
+      ],
+      "minutes": null,
+      "description": "La suite annonce des combats arcade et un monde ouvert à parcourir en équipe, avec des personnages aux styles différents.",
+      "note": "Jeu complet annoncé, sans date de sortie confirmée. Une démo peut être proposée sur Steam.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/2132260/",
+      "unreleased": true,
+      "price": null,
+      "priceInitial": null,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/2132260-image.jpg",
+      "poster": "/assets/2132260-poster.jpg",
+      "movies": [
+        {
+          "id": 257148003,
+          "name": "Wishlist Now!",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257148003/6ed474bcf7c4fd3bf45367307f39d3df89d61654/movie_600x337.jpg?t=1748550801",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2132260/1749224897/3840ba9e224fbecb5cdf9fd5dd6046b459295d70/1751080045/dash_av1.mpd?t=1748550801",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2132260/1749224897/3840ba9e224fbecb5cdf9fd5dd6046b459295d70/1751080045/dash_h264.mpd?t=1748550801",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2132260/1749224897/3840ba9e224fbecb5cdf9fd5dd6046b459295d70/1751080045/hls_264_master.m3u8?t=1748550801",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:04.460429+00:00",
+      "release": {
+        "coming_soon": true,
+        "date": "À déterminer"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "3644200",
+      "appid": 3644200,
+      "name": "2 Cooks 1 Mess",
+      "genre": "Cuisine",
+      "minPlayers": 1,
+      "maxPlayers": null,
+      "modes": [
+        "online"
+      ],
+      "minutes": [
+        20,
+        45
+      ],
+      "description": "Gérez une cuisine chaotique, préparez les commandes et faites face aux imprévus du service. Répartissez les tâches pour sauver votre restaurant.",
+      "note": "La capacité exacte d’un groupe privé n’a pas été confirmée. Le jeu est conservé dans le catalogue, exclu du filtre strict à 5.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/3644200/",
+      "uncertain": true,
+      "price": 0,
+      "priceInitial": null,
+      "discount": 0,
+      "free": true,
+      "image": "/assets/3644200-image.jpg",
+      "poster": "/assets/3644200-poster.jpg",
+      "movies": [
+        {
+          "id": 257274463,
+          "name": "2 Cooks 1 Mess - Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257274463/e532aa1f6e19b145d553b225f8f37cb4267ca223/movie_600x337.jpg?t=1769592187",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3644200/1730736557/9c6e5466a29fae7372f4a002d76bf2fcc973f72d/1769590866/dash_av1.mpd?t=1769592187",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3644200/1730736557/9c6e5466a29fae7372f4a002d76bf2fcc973f72d/1769590866/dash_h264.mpd?t=1769592187",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3644200/1730736557/9c6e5466a29fae7372f4a002d76bf2fcc973f72d/1769590866/hls_264_master.m3u8?t=1769592187",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:04.547145+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "15 avr. 2026"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      }
+    },
+    {
+      "id": "1706240",
+      "appid": 1706240,
+      "name": "CoWorker",
+      "genre": "Stratégie",
+      "minPlayers": 1,
+      "maxPlayers": null,
+      "modes": [
+        "local"
+      ],
+      "minutes": [
+        15,
+        30
+      ],
+      "description": "Produisez des armes dans une usine tout en faisant face à des zombies. Une petite expérience de défense coopérative sur le même écran.",
+      "note": "Steam mentionne le multijoueur local, mais la capacité à 5 reste à confirmer. Exclu du filtre strict.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/1706240/",
+      "uncertain": true,
+      "price": 5.89,
+      "priceInitial": 5.89,
+      "discount": 0,
+      "free": false,
+      "image": "/assets/1706240-image.jpg",
+      "poster": "/assets/1706240-poster.jpg",
+      "movies": [
+        {
+          "id": 256860741,
+          "name": "First Trailer",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256860741/movie.293x165.jpg?t=1637878228",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1706240/417523/68b47e66e98bf4d9b8585752a4cefc612b296dbc/1751021880/dash_av1.mpd?t=1637878228",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1706240/417523/68b47e66e98bf4d9b8585752a4cefc612b296dbc/1751021880/dash_h264.mpd?t=1637878228",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1706240/417523/68b47e66e98bf4d9b8585752a4cefc612b296dbc/1751021880/hls_264_master.m3u8?t=1637878228",
+          "highlight": true
+        }
+      ],
+      "fetchedAt": "2026-11-14T14:51:04.627313+00:00",
+      "release": {
+        "coming_soon": false,
+        "date": "1 déc. 2021"
+      },
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      }
+    },
+    {
+      "id": "404000",
+      "appid": 404000,
+      "name": "PICO PARK: Classic Edition",
+      "genre": "Puzzle",
+      "minPlayers": 2,
+      "maxPlayers": 10,
+      "modes": [
+        "local"
+      ],
+      "minutes": [
+        10,
+        30
+      ],
+      "description": "La première formule de PICO PARK : trouvez comment utiliser les corps de vos coéquipiers pour franchir les obstacles et atteindre la porte.",
+      "note": "Retiré de la vente en juin 2026. À considérer seulement si vous le possédez déjà.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/app/404000/",
+      "unavailable": true
+    },
+    {
+      "id": "zombiotic",
+      "appid": null,
+      "name": "Zombiotic",
+      "genre": "Action",
+      "minPlayers": null,
+      "maxPlayers": null,
+      "modes": [],
+      "minutes": null,
+      "description": "Titre repris de votre liste. Les informations disponibles ne permettent pas de confirmer une version PC coopérative à cinq.",
+      "note": "Identification et multijoueur à confirmer. Aucune capacité ni prix inventé.",
+      "kind": "Coopération",
+      "original": true,
+      "source": "https://store.steampowered.com/search/?term=Zombiotic",
+      "uncertain": true
+    }
+  ],
+  "updatedAt": "2026-11-14T14:51:06.002238+00:00",
+  "region": "FR",
+  "currency": "EUR"
+}
